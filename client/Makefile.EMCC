@@ -1,0 +1,38 @@
+EXEC = build/client
+EMCC = /mnt/data/code/c/libs/emsdk-portable/emscripten/1.37.28/emcc
+EXTENSION 	= c
+
+INCS_DIR	= -I/mnt/data/code/c/libs/emsdk-portable/emscripten/1.37.28/system/include \
+-I../core/src
+
+CORE_SRC_DIR = ../core/src
+CORE_SRCS	= $(shell find $(CORE_SRC_DIR) -type f -name *.$(EXTENSION))
+
+EMCCSRCS = $(SRCS)
+EMCCSRCS += $(CORE_SRCS) 
+
+DIRS := . $(shell find $(OBJS_DIR) -type d)
+GARBAGE_PATTERNS := *.o *.d
+GARBAGE := $(foreach DIR,$(DIRS),$(addprefix $(DIR)/,$(GARBAGE_PATTERNS)))
+
+MAKE		= make --no-print-directory -C
+ECHO		= echo
+
+all		: emcc
+
+clean		:
+		  @rm -rf $(GARBAGE)
+
+-include $(DEPS)
+
+.PHONY		: all clean
+
+tags:
+	ctags -R --exclude=res --exclude=build --exclude=.ycm_extra_conf.py --exclude=Makefile\
+	--exclude=Makefile.EMCC --exclude=Makefile.WIN32
+
+emcc:
+	$(EMCC) $(EMCCSRCS) $< $(INCS_DIR) -O2 -s NO_EXIT_RUNTIME=0 -s TOTAL_MEMORY=67108864 -s \
+		USE_SDL=2 -s USE_SDL_IMAGE=2 -s USE_SDL_TTF=2 -s SDL2_IMAGE_FORMATS='["png"]' \
+		--preload-file res -o $(EXEC).js
+

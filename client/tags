@@ -1,0 +1,451 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ACCUMULATOR_RATIO	src/delta_time.c	/^double ACCUMULATOR_RATIO = 0;$/;"	v
+ANIMATION__	src/graphics/game/animation.h	2;"	d
+BG_LAYERS	src/graphics/menu/menu_main.h	9;"	d
+BITMAP_FONT__	src/graphics/bitmap_font.h	2;"	d
+BUFFER_WORLD_SNAPSHOT_DELAY	src/network/client.h	35;"	d
+BUFFER_WORLD_SNAPSHOT_SIZE	src/network/client.h	36;"	d
+CAMERA_SPEED	src/graphics/game/camera.h	9;"	d
+CAMERA__	src/graphics/game/camera.h	2;"	d
+CC	Makefile	/^CC 			= gcc$/;"	m
+CLIENT_PACKET__	src/network/client_packet.h	2;"	d
+CLIENT__	src/network/client.h	2;"	d
+CLOUD_SPEED	src/graphics/menu/menu_main.h	11;"	d
+CLOUD_SPEED_BACK	src/graphics/menu/menu_main.h	12;"	d
+COLOR_MUL	src/graphics/menu/menu_main.h	16;"	d
+CORE_DEPS	Makefile	/^CORE_DEPS	= $(CORE_OBJS:.o=.d)$/;"	m
+CORE_OBJS	Makefile	/^CORE_OBJS	= $(patsubst $(CORE_SRC_DIR)\/%,$(CORE_OBJ_DIR)\/%,$(CORE_SRCS:.$(EXTENSION)=.o))$/;"	m
+CORE_OBJ_DIR	Makefile	/^CORE_OBJ_DIR = ..\/core\/objs$/;"	m
+CORE_SRCS	Makefile	/^CORE_SRCS	= $(shell find $(CORE_SRC_DIR) -type f -name *.$(EXTENSION))$/;"	m
+CORE_SRC_DIR	Makefile	/^CORE_SRC_DIR = ..\/core\/src$/;"	m
+CYCLE_COUNT	src/graphics/menu/menu_main.h	27;"	d
+DATA_RENDER_HERO__	src/graphics/data/data_render_hero.h	2;"	d
+DATA_RENDER_SPELL__	src/graphics/data/data_render_spell.h	2;"	d
+DEBUG__	src/debug.h	2;"	d
+DELTA_TIME	src/delta_time.c	/^double DELTA_TIME = 0;$/;"	v
+DELTA_TIME__	src/delta_time.h	2;"	d
+DEPS	Makefile	/^DEPS		= $(OBJS:.o=.d)$/;"	m
+DIRS	Makefile	/^DIRS := . $(shell find $(OBJS_DIR) -type d)$/;"	m
+DURATION_DAY	src/graphics/menu/menu_main.h	33;"	d
+DURATION_NIGHT	src/graphics/menu/menu_main.h	35;"	d
+DURATION_SUNRISE	src/graphics/menu/menu_main.h	36;"	d
+DURATION_SUNSET	src/graphics/menu/menu_main.h	34;"	d
+ECHO	Makefile	/^ECHO		= echo$/;"	m
+ENGINE__	src/engine.h	2;"	d
+EXEC	Makefile	/^EXEC		= build\/client$/;"	m
+EXTENSION	Makefile	/^EXTENSION 	= c$/;"	m
+FLAG_GAME_CAMERA_TRACE	src/input.h	/^	FLAG_GAME_CAMERA_TRACE = 1 << 1,$/;"	e	enum:input_game_flag
+FLAG_GAME_COUNT	src/input.h	/^	FLAG_GAME_COUNT$/;"	e	enum:input_game_flag
+FLAG_GAME_HITBOX_SHOW	src/input.h	/^	FLAG_GAME_HITBOX_SHOW = 1 << 0,$/;"	e	enum:input_game_flag
+FPS_COUNT	src/delta_time.c	/^uint32_t FPS_COUNT = 0;$/;"	v
+FPS_FPS	src/delta_time.c	/^uint32_t FPS_FPS = 0;$/;"	v
+FPS_TIMER	src/delta_time.c	/^uint32_t FPS_TIMER = 0;$/;"	v
+GAME_SCALE	src/graphics/graphics.c	/^vec2 GAME_SCALE;$/;"	v
+GARBAGE	Makefile	/^GARBAGE := $(foreach DIR,$(DIRS),$(addprefix $(DIR)\/,$(GARBAGE_PATTERNS)))$/;"	m
+GARBAGE_PATTERNS	Makefile	/^GARBAGE_PATTERNS := *.o *.d$/;"	m
+GRAPHICS__	src/graphics/graphics.h	2;"	d
+GUI__	src/graphics/game/gui.h	2;"	d
+HERO_SPEED	src/graphics/menu/menu_main.h	13;"	d
+INCS_DIR	Makefile	/^INCS_DIR	= -I..\/core\/src$/;"	m
+LAST_TIME	src/delta_time.c	/^double LAST_TIME = 0;$/;"	v
+MAKE	Makefile	/^MAKE		= make --no-print-directory -C$/;"	m
+MENU_MAIN__	src/graphics/menu/menu_main.h	2;"	d
+MENU_STATE_LOBBY	src/graphics/menu/menu.h	/^	MENU_STATE_LOBBY,$/;"	e	enum:menu_state
+MENU_STATE_MAIN	src/graphics/menu/menu.h	/^	MENU_STATE_MAIN,$/;"	e	enum:menu_state
+MENU_STATE_PLAY	src/graphics/menu/menu.h	/^	MENU_STATE_PLAY$/;"	e	enum:menu_state
+MENU__	src/graphics/menu/menu.h	2;"	d
+OBJS	Makefile	/^OBJS		= $(patsubst $(SRCS_DIR)\/%,$(OBJS_DIR)\/%,$(SRCS:.$(EXTENSION)=.o))$/;"	m
+OBJS_DIR	Makefile	/^OBJS_DIR	= objs$/;"	m
+PACKET_PROCESSOR__	src/network/packet_processor.h	2;"	d
+PATHS__	src/paths.h	2;"	d
+PATH_ART	src/paths.h	4;"	d
+PATH_ART_AVATARS	src/paths.h	6;"	d
+PATH_ART_AVATAR_ARCHER	src/paths.h	11;"	d
+PATH_ART_HEROES	src/paths.h	5;"	d
+PATH_ART_HERO_ARCHER	src/paths.h	10;"	d
+PATH_ART_MENUS	src/paths.h	8;"	d
+PATH_ART_WORLD	src/paths.h	7;"	d
+PATH_DATA	src/paths.h	13;"	d
+PATH_DATA_HEROES	src/paths.h	14;"	d
+PATH_FONT	src/paths.h	15;"	d
+PREV_R_PERC	src/delta_time.c	/^double PREV_R_PERC = 0;$/;"	v
+RENDERABLE_HERO__	src/graphics/game/renderable_hero.h	2;"	d
+RENDER_HERO_ANIM_SIZE	src/graphics/data/data_render_hero.h	10;"	d
+RENDER__	src/graphics/game/render.h	2;"	d
+R_PERC	src/delta_time.c	/^double R_PERC = 0;$/;"	v
+SPRITE__	src/graphics/game/sprite.h	2;"	d
+SRCS	Makefile	/^SRCS		= $(shell find $(SRCS_DIR) -type f -name *.$(EXTENSION))$/;"	m
+SRCS_DIR	Makefile	/^SRCS_DIR	= src$/;"	m
+START_BUTTON_ANIM_SPEED	src/graphics/menu/menu_main.h	22;"	d
+START_BUTTON_DELAY	src/graphics/menu/menu_main.h	23;"	d
+START_FADE_SPEED	src/graphics/menu/menu_main.h	24;"	d
+START_FADE_TEXT_SPEED	src/graphics/menu/menu_main.h	25;"	d
+SUN_SPEED	src/graphics/menu/menu_main.h	14;"	d
+SWORD_FLASH_INTERVAL	src/graphics/menu/menu_main.h	20;"	d
+TEXTBOX__	src/graphics/textbox.h	2;"	d
+TEXTURE__	src/graphics/game/texture.h	2;"	d
+TEXT_ARR_SIZE	src/graphics/menu/menu_main.h	38;"	d
+TEXT_BLINK_SPEED	src/graphics/menu/menu_main.h	18;"	d
+TEX_MAX_DIR_COUNT	src/graphics/game/texture.h	15;"	d
+TEX_MAX_PATH_LEN	src/graphics/game/texture.h	14;"	d
+TIME_DAY_TO_SUNSET	src/graphics/menu/menu_main.h	28;"	d
+TIME_NIGHT_TO_SUNRISE	src/graphics/menu/menu_main.h	30;"	d
+TIME_SUNRISE_TO_DAY	src/graphics/menu/menu_main.h	31;"	d
+TIME_SUNSET_TO_NIGHT	src/graphics/menu/menu_main.h	29;"	d
+TRANSITION_SPEED	src/graphics/menu/menu.h	8;"	d
+WINDOW_SIZE	src/graphics/graphics.c	/^vec2 WINDOW_SIZE;$/;"	v
+_INPUT__	src/input.h	2;"	d
+acc_info	src/engine.h	/^	struct account_info acc_info;$/;"	m	struct:engine	typeref:struct:engine::account_info
+account_info	src/engine.h	/^account_info$/;"	s
+action	src/graphics/data/data_render_hero.h	/^	enum hero_action action;$/;"	m	struct:data_render_hero_anim	typeref:enum:data_render_hero_anim::hero_action
+addr_sv	src/network/client.h	/^	struct sockaddr_in addr_sv;$/;"	m	struct:client	typeref:struct:client::sockaddr_in
+anim	src/graphics/data/data_render_hero.h	/^	struct animation anim;$/;"	m	struct:data_render_hero_anim	typeref:struct:data_render_hero_anim::animation
+anim	src/graphics/game/sprite.h	/^	struct animation anim;$/;"	m	struct:sprite	typeref:struct:sprite::animation
+animated	src/graphics/game/sprite.h	/^	bool animated;$/;"	m	struct:sprite
+animation	src/graphics/game/animation.h	/^animation$/;"	s
+animation_count	src/graphics/data/data_render_hero.h	/^	uint16_t animation_count;$/;"	m	struct:data_render_hero
+animation_init	src/graphics/game/animation.c	/^animation_init($/;"	f
+animation_play	src/graphics/game/animation.c	/^animation_play(struct animation *anim)$/;"	f
+animation_play_from_animation	src/graphics/game/animation.c	/^animation_play_from_animation(struct animation *anim, struct animation old)$/;"	f
+animation_play_from_frame	src/graphics/game/animation.c	/^animation_play_from_frame(struct animation *anim, uint16_t frame_num)$/;"	f
+animation_render_update	src/graphics/game/animation.c	/^animation_render_update(struct animation *anim)$/;"	f
+animation_restart	src/graphics/game/animation.c	/^animation_restart(struct animation *anim)$/;"	f
+animation_stop	src/graphics/game/animation.c	/^animation_stop(struct animation *anim)$/;"	f
+anims	src/graphics/data/data_render_hero.h	/^	struct data_render_hero_anim anims[RENDER_HERO_ANIM_SIZE];$/;"	m	struct:data_render_hero	typeref:struct:data_render_hero::data_render_hero_anim
+anims	src/graphics/data/data_render_spell.h	/^	struct animation anims[2];$/;"	m	struct:data_render_spell	typeref:struct:data_render_spell::animation
+archer_data	src/graphics/menu/menu_main.h	/^	struct data_render_hero archer_data;$/;"	m	struct:menu_main	typeref:struct:menu_main::data_render_hero
+archer_turn_around	src/graphics/menu/menu_main.h	/^	bool archer_turn_around;$/;"	m	struct:menu_main
+background	src/graphics/menu/menu_main.h	/^	struct sprite background[BG_LAYERS];$/;"	m	struct:menu_main	typeref:struct:menu_main::sprite
+bitmap_font	src/graphics/bitmap_font.h	/^bitmap_font$/;"	s
+bitmap_font_destroy	src/graphics/bitmap_font.c	/^bitmap_font_destroy(struct bitmap_font *font)$/;"	f
+bitmap_font_init	src/graphics/bitmap_font.c	/^bitmap_font_init($/;"	f
+bitmap_text	src/graphics/bitmap_font.h	/^bitmap_text$/;"	s
+bitmap_text_init	src/graphics/bitmap_font.c	/^bitmap_text_init(char *text, vec2 pos, struct bitmap_font *font, union color c)$/;"	f
+bitmap_text_pos_set	src/graphics/bitmap_font.c	/^bitmap_text_pos_set(struct bitmap_text *text, vec2 pos)$/;"	f
+bitmap_text_render	src/graphics/bitmap_font.c	/^bitmap_text_render(struct bitmap_text *text)$/;"	f
+bitmap_text_render_alpha	src/graphics/bitmap_font.c	/^bitmap_text_render_alpha(struct bitmap_text *text, uint8_t alpha)$/;"	f
+bitmap_text_render_base	src/graphics/bitmap_font.c	/^bitmap_text_render_base(struct bitmap_text *t, bool cam, uint8_t alpha)$/;"	f	file:
+bitmap_text_render_cam	src/graphics/bitmap_font.c	/^bitmap_text_render_cam(struct bitmap_text *text)$/;"	f
+bitmap_text_render_cam_alpha	src/graphics/bitmap_font.c	/^bitmap_text_render_cam_alpha(struct bitmap_text *text, uint8_t alpha)$/;"	f
+bitmap_text_width	src/graphics/bitmap_font.c	/^bitmap_text_width(struct bitmap_font *font, const char *text)$/;"	f
+bloodmoon	src/graphics/menu/menu_main.c	/^struct val bloodmoon = {89, 39, 32, 255};$/;"	v	typeref:struct:val
+bmp_font	src/graphics/game/render.h	/^	struct bitmap_font *bmp_font;$/;"	m	struct:renderer	typeref:struct:renderer::bitmap_font
+bmp_font_title	src/graphics/game/render.h	/^	struct bitmap_font *bmp_font_title;$/;"	m	struct:renderer	typeref:struct:renderer::bitmap_font
+cache	src/graphics/data/data_render_hero.h	/^	struct data_render_hero cache[DATA_HERO_CACHE_SIZE];$/;"	m	struct:data_render_hero_cache	typeref:struct:data_render_hero_cache::data_render_hero
+cache	src/graphics/data/data_render_spell.h	/^	struct data_render_spell cache[DATA_SPELL_CACHE_SIZE];$/;"	m	struct:data_render_spell_cache	typeref:struct:data_render_spell_cache::data_render_spell
+cache	src/graphics/game/texture.h	/^	struct texture_set *cache;$/;"	m	struct:texture_cache	typeref:struct:texture_cache::texture_set
+cam	src/graphics/game/camera.c	/^static struct camera cam;$/;"	v	typeref:struct:camera	file:
+camera	src/graphics/game/camera.c	/^camera(void)$/;"	f
+camera	src/graphics/game/camera.h	/^camera$/;"	s
+camera_follow_hero	src/graphics/game/camera.c	/^camera_follow_hero(const struct renderable_hero *ren_hero, const vec2 offset)$/;"	f
+camera_init	src/graphics/game/camera.c	/^camera_init(void)$/;"	f
+camera_keep_in_bounds	src/graphics/game/camera.c	/^camera_keep_in_bounds(vec2 *pos)$/;"	f	file:
+camera_move_vec	src/graphics/game/camera.c	/^camera_move_vec(void)$/;"	f	file:
+camera_pos	src/graphics/game/camera.c	/^camera_pos(void)$/;"	f
+camera_pos_hero_set	src/graphics/game/camera.c	/^camera_pos_hero_set(void)$/;"	f	file:
+camera_render	src/graphics/game/camera.c	/^camera_render(void)$/;"	f
+camera_trace	src/debug.h	/^	bool camera_trace;	$/;"	m	struct:debug_values
+camera_update	src/graphics/game/camera.c	/^camera_update(void)$/;"	f
+can_tick	src/engine.h	/^	bool can_tick;$/;"	m	struct:engine_info
+cl	src/network/client.c	/^static struct client cl;$/;"	v	typeref:struct:client	file:
+client	src/network/client.c	/^client(void)$/;"	f
+client	src/network/client.h	/^client $/;"	s
+client_destroy	src/network/client.c	/^client_destroy(void) $/;"	f
+client_disconnect	src/network/client.c	/^client_disconnect(void)$/;"	f
+client_init	src/network/client.c	/^client_init(void) $/;"	f
+client_process	src/network/client.c	/^client_process(void)$/;"	f
+client_read	src/network/client.c	/^client_read(void) $/;"	f
+client_world_snapshot_handle	src/network/client.c	/^client_world_snapshot_handle(void)$/;"	f	file:
+client_write_packets	src/network/client.c	/^client_write_packets(void)$/;"	f
+color	src/graphics/bitmap_font.h	/^	union color color;$/;"	m	struct:bitmap_text	typeref:union:bitmap_text::color
+color	src/graphics/menu/menu_main.h	/^	union color color;$/;"	m	struct:time_cycle	typeref:union:time_cycle::color
+color_background	src/graphics/textbox.h	/^	SDL_Color color_background;$/;"	m	struct:textbox
+color_text	src/graphics/textbox.h	/^	SDL_Color color_text;$/;"	m	struct:textbox
+connected	src/network/client.h	/^	bool connected;$/;"	m	struct:client
+count	src/graphics/game/texture.h	/^	uint16_t count;$/;"	m	struct:texture_cache
+cur_cycle	src/graphics/menu/menu_main.h	/^	struct time_cycle cur_cycle;$/;"	m	struct:menu_main	typeref:struct:menu_main::time_cycle
+current_frame_num	src/graphics/game/animation.h	/^	uint16_t current_frame_num;$/;"	m	struct:animation
+cycle_index	src/graphics/menu/menu_main.h	/^	uint8_t cycle_index;$/;"	m	struct:menu_main
+cycles	src/graphics/menu/menu_main.h	/^	struct time_cycle cycles[CYCLE_COUNT];$/;"	m	struct:menu_main	typeref:struct:menu_main::time_cycle
+data_render_hero	src/graphics/data/data_render_hero.h	/^data_render_hero$/;"	s
+data_render_hero_anim	src/graphics/data/data_render_hero.h	/^data_render_hero_anim$/;"	s
+data_render_hero_anim_init	src/graphics/data/data_render_hero.c	/^data_render_hero_anim_init(enum hero_action action, enum direction dir, struct animation anim)$/;"	f	file:
+data_render_hero_cache	src/graphics/data/data_render_hero.h	/^data_render_hero_cache$/;"	s
+data_render_hero_get	src/graphics/data/data_render_hero.c	/^data_render_hero_get(enum hero_type hero_type)$/;"	f
+data_render_hero_get_anim	src/graphics/data/data_render_hero.c	/^data_render_hero_get_anim($/;"	f
+data_render_hero_init	src/graphics/data/data_render_hero.c	/^data_render_hero_init(void)$/;"	f
+data_render_hero_init_archer	src/graphics/data/data_render_hero.c	/^data_render_hero_init_archer(void)$/;"	f	file:
+data_render_hero_spr_vision_init	src/graphics/data/data_render_hero.c	/^data_render_hero_spr_vision_init(struct sprite *spr)$/;"	f	file:
+data_render_spell	src/graphics/data/data_render_spell.h	/^data_render_spell$/;"	s
+data_render_spell_cache	src/graphics/data/data_render_spell.h	/^data_render_spell_cache$/;"	s
+data_render_spell_init	src/graphics/data/data_render_spell.c	/^data_render_spell_init(void)$/;"	f
+day	src/graphics/menu/menu_main.c	/^struct val day = {112, 215, 235, 255};$/;"	v	typeref:struct:val
+debug_camera_trace	src/debug.c	/^debug_camera_trace(void)$/;"	f
+debug_hitbox	src/debug.c	/^debug_hitbox(void)$/;"	f
+debug_render	src/debug.c	/^debug_render(void)$/;"	f
+debug_render_hitboxes	src/debug.c	/^debug_render_hitboxes(void)$/;"	f	file:
+debug_render_tile_grid	src/debug.c	/^debug_render_tile_grid(void)$/;"	f	file:
+debug_update	src/debug.c	/^debug_update(void)$/;"	f
+debug_values	src/debug.c	/^debug_values(void)$/;"	f
+debug_values	src/debug.h	/^debug_values$/;"	s
+delay	src/graphics/game/animation.h	/^	uint16_t delay;$/;"	m	struct:animation
+delta_time_calculate	src/delta_time.c	/^delta_time_calculate(void)$/;"	f
+dir	src/graphics/data/data_render_hero.h	/^	enum direction dir;$/;"	m	struct:data_render_hero_anim	typeref:enum:data_render_hero_anim::direction
+dst	src/graphics/game/sprite.h	/^	SDL_Rect dst;$/;"	m	struct:sprite
+duration	src/graphics/menu/menu_main.h	/^	float duration;$/;"	m	struct:time_cycle
+en	src/engine.c	/^static struct engine en;$/;"	v	typeref:struct:engine	file:
+eng	src/engine.c	/^eng(void)$/;"	f
+engine	src/engine.h	/^engine$/;"	s
+engine_destroy	src/engine.c	/^engine_destroy(void)$/;"	f
+engine_events	src/engine.c	/^engine_events(void)$/;"	f
+engine_info	src/engine.h	/^engine_info$/;"	s
+engine_init	src/engine.c	/^engine_init(void)$/;"	f
+engine_loop	src/engine.c	/^engine_loop()$/;"	f
+engine_render	src/engine.c	/^engine_render()$/;"	f
+engine_start	src/engine.c	/^engine_start(void)$/;"	f
+engine_update	src/engine.c	/^engine_update()$/;"	f
+f_list	src/engine.h	/^	struct friend_list f_list;$/;"	m	struct:account_info	typeref:struct:account_info::friend_list
+fade_color	src/graphics/menu/menu_main.h	/^	union color fade_color;$/;"	m	struct:menu_main	typeref:union:menu_main::color
+fd	src/network/client.h	/^	sock fd;$/;"	m	struct:client
+flags_game	src/input.h	/^	uint8_t flags_game;$/;"	m	struct:input
+flags_input	src/input.h	/^	uint16_t flags_input;$/;"	m	struct:input
+flags_input_prev	src/input.h	/^	uint16_t flags_input_prev;$/;"	m	struct:input
+follow_hero	src/graphics/game/camera.h	/^	const struct renderable_hero *follow_hero;$/;"	m	struct:camera	typeref:struct:camera::renderable_hero
+font	src/graphics/bitmap_font.h	/^	struct bitmap_font *font;$/;"	m	struct:bitmap_text	typeref:struct:bitmap_text::bitmap_font
+fps_calculate	src/delta_time.c	/^fps_calculate(void)$/;"	f
+frame_width	src/graphics/game/animation.h	/^	uint32_t frame_width;$/;"	m	struct:animation
+game	src/engine.h	/^	struct game *game;$/;"	m	struct:engine	typeref:struct:engine::game
+gfx	src/graphics/graphics.c	/^static struct graphics gfx;$/;"	v	typeref:struct:graphics	file:
+graphics	src/graphics/graphics.c	/^graphics(void)$/;"	f
+graphics	src/graphics/graphics.h	/^graphics$/;"	s
+graphics_calculate_html	src/graphics/graphics.c	/^graphics_calculate_html(void)$/;"	f
+graphics_calculate_scale	src/graphics/graphics.c	/^graphics_calculate_scale(void)$/;"	f
+graphics_destroy	src/graphics/graphics.c	/^graphics_destroy(void)$/;"	f
+graphics_init	src/graphics/graphics.c	/^graphics_init(void)$/;"	f
+graphics_resize_html	src/graphics/graphics.c	/^graphics_resize_html(int eventType, const EmscriptenUiEvent *e, void *userData)$/;"	f
+grid_fog	src/graphics/game/render.h	/^	struct tile_grid grid_fog;$/;"	m	struct:renderer	typeref:struct:renderer::tile_grid
+gui	src/graphics/game/gui.h	/^gui$/;"	s
+gui_render	src/graphics/game/gui.c	/^gui_render(void)$/;"	f
+gui_render_hud	src/graphics/game/gui.c	/^gui_render_hud(void)$/;"	f
+gui_render_input	src/graphics/game/gui.c	/^gui_render_input(void)$/;"	f
+hero	src/graphics/game/renderable_hero.h	/^	struct hero *hero;$/;"	m	struct:renderable_hero	typeref:struct:renderable_hero::hero
+hitbox_show	src/debug.h	/^	bool hitbox_show;	$/;"	m	struct:debug_values
+horizontal_total_count	src/graphics/bitmap_font.h	/^	uint16_t horizontal_total_count;$/;"	m	struct:bitmap_font
+hp_bar_offset	src/graphics/data/data_render_hero.h	/^	vec2 hp_bar_offset;$/;"	m	struct:data_render_hero
+id	src/engine.h	/^	uint32_t id;$/;"	m	struct:account_info
+id	src/graphics/menu/menu_main.h	/^	uint8_t id;$/;"	m	struct:time_cycle
+in	src/input.c	/^static struct input in;$/;"	v	typeref:struct:input	file:
+in_game	src/engine.h	/^	bool in_game;$/;"	m	struct:engine_info
+info	src/engine.h	/^	struct engine_info info;	$/;"	m	struct:engine	typeref:struct:engine::engine_info
+input	src/input.c	/^input(void)$/;"	f
+input	src/input.h	/^input$/;"	s
+input_game_flag	src/input.h	/^input_game_flag$/;"	g
+input_init	src/input.c	/^input_init(void)$/;"	f
+input_key_down	src/input.c	/^input_key_down(SDL_Event *e)$/;"	f	file:
+input_mouse_dir_set	src/input.c	/^input_mouse_dir_set(vec2 pos)$/;"	f
+input_mouse_pos_screen	src/input.c	/^input_mouse_pos_screen(void)$/;"	f
+input_mouse_pos_world	src/input.c	/^input_mouse_pos_world(void)$/;"	f
+input_process	src/input.c	/^input_process(SDL_Event *e)$/;"	f
+input_update	src/input.c	/^input_update(void)$/;"	f
+last_time	src/engine.h	/^	double last_time;$/;"	m	struct:engine_info
+lerp_color	src/graphics/menu/menu_main.h	/^	union color lerp_color;$/;"	m	struct:time_cycle	typeref:union:time_cycle::color
+lerp_duration	src/graphics/menu/menu_main.h	/^	int32_t lerp_duration;$/;"	m	struct:time_cycle
+local_hero	src/engine.h	/^	struct renderable_hero *local_hero;$/;"	m	struct:engine	typeref:struct:engine::renderable_hero
+locked	src/graphics/game/camera.h	/^	bool locked;$/;"	m	struct:camera
+logo	src/graphics/menu/menu_main.h	/^	struct sprite logo;$/;"	m	struct:menu_main	typeref:struct:menu_main::sprite
+loop	src/graphics/game/animation.h	/^	bool loop;$/;"	m	struct:animation
+loops	src/engine.h	/^	uint32_t loops;$/;"	m	struct:engine_info
+main	src/main.c	/^main(int argc, char **argv)$/;"	f
+menu	src/graphics/menu/menu.c	/^menu(void)$/;"	f
+menu	src/graphics/menu/menu.h	/^menu$/;"	s
+menu	src/graphics/menu/menu_main.c	/^static struct menu_main* menu;$/;"	v	typeref:struct:menu_main	file:
+menu_destroy	src/graphics/menu/menu.c	/^menu_destroy(void)$/;"	f
+menu_init	src/graphics/menu/menu.c	/^menu_init(void)$/;"	f
+menu_input	src/graphics/menu/menu.c	/^menu_input(SDL_Event *e)$/;"	f
+menu_main	src/graphics/menu/menu.h	/^	struct menu_main menu_main;$/;"	m	struct:menu	typeref:struct:menu::menu_main
+menu_main	src/graphics/menu/menu_main.c	/^menu_main(void)$/;"	f
+menu_main	src/graphics/menu/menu_main.h	/^menu_main$/;"	s
+menu_main_destroy	src/graphics/menu/menu_main.c	/^menu_main_destroy(void)$/;"	f
+menu_main_init	src/graphics/menu/menu_main.c	/^menu_main_init(void)$/;"	f
+menu_main_input	src/graphics/menu/menu_main.c	/^menu_main_input(SDL_Event *e)$/;"	f
+menu_main_render	src/graphics/menu/menu_main.c	/^menu_main_render(void)$/;"	f
+menu_main_render_title_screen	src/graphics/menu/menu_main.c	/^menu_main_render_title_screen(void)$/;"	f	file:
+menu_main_render_ui_bar	src/graphics/menu/menu_main.c	/^menu_main_render_ui_bar(void)$/;"	f
+menu_main_update	src/graphics/menu/menu_main.c	/^menu_main_update(void)$/;"	f
+menu_main_update_clouds	src/graphics/menu/menu_main.c	/^menu_main_update_clouds(void)$/;"	f	file:
+menu_main_update_cycles	src/graphics/menu/menu_main.c	/^menu_main_update_cycles(void)$/;"	f	file:
+menu_main_update_hero	src/graphics/menu/menu_main.c	/^menu_main_update_hero(void)$/;"	f	file:
+menu_main_update_title_screen	src/graphics/menu/menu_main.c	/^menu_main_update_title_screen(void)$/;"	f	file:
+menu_render	src/graphics/menu/menu.c	/^menu_render(void)$/;"	f
+menu_state	src/graphics/menu/menu.h	/^menu_state$/;"	g
+menu_state_set	src/graphics/menu/menu.c	/^menu_state_set(enum menu_state state)$/;"	f
+menu_update	src/graphics/menu/menu.c	/^menu_update(void)$/;"	f
+mn	src/graphics/menu/menu.c	/^static struct menu *mn;$/;"	v	typeref:struct:menu	file:
+mouse_click_hold	src/input.h	/^	bool mouse_click_hold;$/;"	m	struct:input
+mouse_dir	src/input.h	/^	enum direction mouse_dir;$/;"	m	struct:input	typeref:enum:input::direction
+mouse_dir_prev	src/input.h	/^	enum direction mouse_dir_prev;$/;"	m	struct:input	typeref:enum:input::direction
+night	src/graphics/menu/menu_main.c	/^struct val night = {48, 69, 84, 255};$/;"	v	typeref:struct:val
+num_of_frames	src/graphics/game/animation.h	/^	uint16_t num_of_frames;$/;"	m	struct:animation
+offset	src/graphics/game/camera.h	/^	vec2 offset;$/;"	m	struct:camera
+pack_buf	src/network/client.h	/^	struct packet_buffer *pack_buf; $/;"	m	struct:client	typeref:struct:client::packet_buffer
+party_members	src/engine.h	/^	struct party_member party_members[MAX_PARTY_SIZE];$/;"	m	struct:engine_info	typeref:struct:engine_info::party_member
+played_once	src/graphics/game/animation.h	/^	bool played_once;$/;"	m	struct:animation
+playing	src/graphics/game/animation.h	/^	bool playing;$/;"	m	struct:animation
+pos	src/graphics/bitmap_font.h	/^	vec2 pos;$/;"	m	struct:bitmap_text
+pos	src/graphics/game/camera.h	/^	vec2 pos;$/;"	m	struct:camera
+pos	src/graphics/game/sprite.h	/^	vec2 pos;$/;"	m	struct:sprite
+pos	src/graphics/textbox.h	/^	vec2 pos;$/;"	m	struct:textbox
+pos_archer	src/graphics/menu/menu_main.h	/^	vec2 pos_archer;$/;"	m	struct:menu_main
+pos_cloud	src/graphics/menu/menu_main.h	/^	vec2 pos_cloud;$/;"	m	struct:menu_main
+pos_cloud_back	src/graphics/menu/menu_main.h	/^	vec2 pos_cloud_back;$/;"	m	struct:menu_main
+pos_logo	src/graphics/menu/menu_main.h	/^	vec2 pos_logo;$/;"	m	struct:menu_main
+pos_offset	src/graphics/game/sprite.h	/^	vec2 pos_offset;$/;"	m	struct:sprite
+pos_prev	src/graphics/bitmap_font.h	/^	vec2 pos_prev;$/;"	m	struct:bitmap_text
+pos_prev	src/graphics/game/camera.h	/^	vec2 pos_prev;$/;"	m	struct:camera
+pos_prev	src/graphics/game/sprite.h	/^	vec2 pos_prev;$/;"	m	struct:sprite
+pos_start_text	src/graphics/menu/menu_main.h	/^	vec2 pos_start_text;$/;"	m	struct:menu_main
+pos_sun	src/graphics/menu/menu_main.h	/^	vec2 pos_sun;$/;"	m	struct:menu_main
+pos_trans	src/graphics/menu/menu.h	/^	vec2 pos_trans;$/;"	m	struct:menu
+pos_view	src/graphics/game/camera.h	/^	vec2 pos_view;$/;"	m	struct:camera
+pos_view	src/graphics/game/sprite.h	/^	vec2 pos_view;$/;"	m	struct:sprite
+pressed_start	src/graphics/menu/menu_main.h	/^	bool pressed_start;$/;"	m	struct:menu_main
+process_login	src/network/packet_processor.c	/^process_login(struct packet *packet)$/;"	f	file:
+process_packet	src/network/packet_processor.c	/^process_packet(struct packet *packet)$/;"	f
+process_party_invite	src/network/packet_processor.c	/^process_party_invite(struct packet *packet)$/;"	f	file:
+process_party_join	src/network/packet_processor.c	/^process_party_join(struct packet *packet)$/;"	f	file:
+process_party_leave	src/network/packet_processor.c	/^process_party_leave(struct packet *packet)$/;"	f	file:
+process_register	src/network/packet_processor.c	/^process_register(struct packet *packet)$/;"	f	file:
+process_room_add	src/network/packet_processor.c	/^process_room_add(struct packet *packet)$/;"	f	file:
+process_room_game_start	src/network/packet_processor.c	/^process_room_game_start(struct packet *packet)$/;"	f	file:
+process_room_hero_change	src/network/packet_processor.c	/^process_room_hero_change(struct packet *packet)$/;"	f	file:
+process_room_join	src/network/packet_processor.c	/^process_room_join(struct packet *packet)$/;"	f	file:
+process_room_leave	src/network/packet_processor.c	/^process_room_leave(struct packet *packet)$/;"	f	file:
+process_world_snapshot	src/network/packet_processor.c	/^process_world_snapshot(struct packet *packet)$/;"	f	file:
+ren_heroes	src/graphics/game/render.h	/^	struct renderable_hero ren_heroes[MAX_PLAYERS];	$/;"	m	struct:renderer	typeref:struct:renderer::renderable_hero
+render_data	src/graphics/game/renderable_hero.h	/^	struct data_render_hero render_data;$/;"	m	struct:renderable_hero	typeref:struct:renderable_hero::data_render_hero
+render_destroy	src/graphics/game/render.c	/^render_destroy(void)$/;"	f
+render_fog	src/graphics/game/render.c	/^render_fog(void)$/;"	f	file:
+render_fog_prepare	src/graphics/game/render.c	/^render_fog_prepare(void)$/;"	f	file:
+render_hero_cache	src/graphics/data/data_render_hero.c	/^static struct data_render_hero_cache render_hero_cache;$/;"	v	typeref:struct:data_render_hero_cache	file:
+render_hero_count	src/graphics/data/data_render_hero.h	/^	uint16_t render_hero_count;$/;"	m	struct:data_render_hero_cache
+render_hero_get	src/graphics/game/render.c	/^render_hero_get(uint32_t id_game)$/;"	f
+render_hero_init	src/graphics/game/render.c	/^render_hero_init(struct hero *hero)$/;"	f
+render_init	src/graphics/game/render.c	/^render_init(void)$/;"	f
+render_sort_sprites	src/graphics/game/render.c	/^render_sort_sprites(struct sprite **sprites, uint16_t sprite_count)$/;"	f	file:
+render_spell_cache	src/graphics/data/data_render_spell.c	/^static struct data_render_spell_cache render_spell_cache;$/;"	v	typeref:struct:data_render_spell_cache	file:
+render_spell_count	src/graphics/data/data_render_spell.h	/^	uint16_t render_spell_count;$/;"	m	struct:data_render_spell_cache
+render_sprites	src/graphics/game/render.c	/^render_sprites(void)$/;"	f
+render_update	src/graphics/game/render.c	/^render_update(void)$/;"	f
+render_world	src/graphics/game/render.c	/^render_world(void)$/;"	f
+render_world_init	src/graphics/game/render.c	/^render_world_init(void)$/;"	f
+renderable_hero	src/graphics/game/renderable_hero.h	/^renderable_hero$/;"	s
+renderable_hero_camera_offset	src/graphics/game/renderable_hero.c	/^renderable_hero_camera_offset(struct renderable_hero *ren_hero)$/;"	f
+renderable_hero_init	src/graphics/game/renderable_hero.c	/^renderable_hero_init(struct hero *hero)$/;"	f
+renderable_hero_render	src/graphics/game/renderable_hero.c	/^renderable_hero_render(struct renderable_hero *ren_hero)$/;"	f
+renderable_hero_update	src/graphics/game/renderable_hero.c	/^renderable_hero_update(struct renderable_hero *ren_hero)$/;"	f
+renderer	src/graphics/game/render.c	/^renderer(void)$/;"	f
+renderer	src/graphics/game/render.h	/^renderer$/;"	s
+renderer	src/graphics/graphics.h	/^	SDL_Renderer *renderer;$/;"	m	struct:graphics
+request_account_login	src/network/client_packet.c	/^request_account_login(char *username, const char *password)$/;"	f
+request_account_register	src/network/client_packet.c	/^request_account_register(char *username, const char *password, char *email)$/;"	f
+request_disconnect	src/network/client_packet.c	/^request_disconnect(void)$/;"	f
+request_input_update	src/network/client_packet.c	/^request_input_update(uint16_t flags_input, enum direction dir)$/;"	f
+request_packet	src/network/client_packet.c	/^request_packet(char *buffer, uint16_t len, bool reliable, enum packet_type type)$/;"	f	file:
+request_party_invite	src/network/client_packet.c	/^request_party_invite(uint32_t id)$/;"	f
+request_party_invite_accept	src/network/client_packet.c	/^request_party_invite_accept(uint16_t id_party)$/;"	f
+request_party_invite_decline	src/network/client_packet.c	/^request_party_invite_decline(uint16_t id_party)$/;"	f
+request_party_que	src/network/client_packet.c	/^request_party_que(void)$/;"	f
+request_ping	src/network/client_packet.c	/^request_ping(void)$/;"	f
+request_spell_cast	src/network/client_packet.c	/^request_spell_cast(uint8_t slot, uint32_t id_target)$/;"	f
+reset_blink	src/graphics/menu/menu_main.h	/^	bool reset_blink;$/;"	m	struct:menu_main
+rndr	src/graphics/game/render.c	/^static struct renderer rndr;$/;"	v	typeref:struct:renderer	file:
+room_members	src/engine.h	/^	struct party_member room_members[MAX_PLAYERS];$/;"	m	struct:engine_info	typeref:struct:engine_info::party_member
+size	src/graphics/game/sprite.h	/^	vec2 size;$/;"	m	struct:sprite
+size	src/graphics/game/sprite.h	/^	vec2 size;$/;"	m	struct:sprite_tex
+size	src/graphics/textbox.h	/^	vec2 size;	$/;"	m	struct:textbox
+sock	src/network/client.h	/^typedef SOCKET sock;$/;"	t
+sock	src/network/client.h	/^typedef int16_t sock;$/;"	t
+speed	src/graphics/game/camera.h	/^	float speed;$/;"	m	struct:camera
+spr	src/graphics/data/data_render_hero.h	/^	struct sprite spr;	$/;"	m	struct:data_render_hero	typeref:struct:data_render_hero::sprite
+spr	src/graphics/data/data_render_spell.h	/^	struct sprite spr;$/;"	m	struct:data_render_spell	typeref:struct:data_render_spell::sprite
+spr_avatar	src/graphics/data/data_render_hero.h	/^	struct sprite spr_avatar;	$/;"	m	struct:data_render_hero	typeref:struct:data_render_hero::sprite
+spr_fog	src/graphics/game/render.h	/^	struct sprite spr_fog;$/;"	m	struct:renderer	typeref:struct:renderer::sprite
+spr_frame_size	src/graphics/data/data_render_hero.h	/^	uint16_t spr_frame_size;$/;"	m	struct:data_render_hero
+spr_frame_size	src/graphics/data/data_render_spell.h	/^	uint16_t spr_frame_size;$/;"	m	struct:data_render_spell
+spr_map	src/graphics/game/render.h	/^	struct sprite spr_map;$/;"	m	struct:renderer	typeref:struct:renderer::sprite
+spr_offset	src/graphics/data/data_render_hero.h	/^	vec2 spr_offset;$/;"	m	struct:data_render_hero
+spr_offset	src/graphics/data/data_render_spell.h	/^	vec2 spr_offset;$/;"	m	struct:data_render_spell
+spr_vision	src/graphics/data/data_render_hero.h	/^	struct sprite spr_vision;$/;"	m	struct:data_render_hero	typeref:struct:data_render_hero::sprite
+sprite	src/graphics/game/sprite.h	/^sprite$/;"	s
+sprite_init	src/graphics/game/sprite.c	/^sprite_init($/;"	f
+sprite_pos_set	src/graphics/game/sprite.c	/^sprite_pos_set(struct sprite *spr, vec2 pos)$/;"	f
+sprite_pos_set_all	src/graphics/game/sprite.c	/^sprite_pos_set_all(struct sprite *spr, vec2 pos)$/;"	f
+sprite_pos_view	src/graphics/game/sprite.c	/^sprite_pos_view(struct sprite *spr)$/;"	f
+sprite_render	src/graphics/game/sprite.c	/^sprite_render(struct sprite *spr)$/;"	f
+sprite_render_custom	src/graphics/game/sprite.c	/^sprite_render_custom(struct sprite *spr, vec2 size)$/;"	f
+sprite_tex	src/graphics/game/sprite.h	/^sprite_tex$/;"	s
+src	src/graphics/game/animation.h	/^	SDL_Rect src;	$/;"	m	struct:animation
+ss_buffer	src/network/client.h	/^	struct command ss_buffer[BUFFER_WORLD_SNAPSHOT_SIZE];$/;"	m	struct:client	typeref:struct:client::command
+ss_buffer_count	src/network/client.h	/^	uint8_t ss_buffer_count;$/;"	m	struct:client
+ss_buffer_timer	src/network/client.h	/^	uint16_t ss_buffer_timer;$/;"	m	struct:client
+ss_got_first	src/network/client.h	/^	bool ss_got_first;$/;"	m	struct:client
+start	src/graphics/menu/menu_main.h	/^	int32_t start;$/;"	m	struct:time_cycle
+start_index	src/graphics/game/animation.h	/^	uint16_t start_index;$/;"	m	struct:animation
+start_text_alpha	src/graphics/menu/menu_main.h	/^	int16_t start_text_alpha;$/;"	m	struct:menu_main
+start_time	src/engine.h	/^	float start_time;$/;"	m	struct:engine_info
+start_timer	src/graphics/menu/menu_main.h	/^	float start_timer;$/;"	m	struct:menu_main
+starting_char	src/graphics/bitmap_font.h	/^	char starting_char;$/;"	m	struct:bitmap_font
+state	src/graphics/menu/menu.h	/^	enum menu_state state;$/;"	m	struct:menu	typeref:enum:menu::menu_state
+sunrise	src/graphics/menu/menu_main.c	/^struct val sunrise = {253, 125, 1, 255};$/;"	v	typeref:struct:val
+sunset	src/graphics/menu/menu_main.c	/^struct val sunset = {255, 147, 41, 255};$/;"	v	typeref:struct:val
+switching	src/graphics/menu/menu_main.h	/^	bool switching;$/;"	m	struct:time_cycle
+sword_timer_flash	src/graphics/menu/menu_main.h	/^	float sword_timer_flash;	$/;"	m	struct:menu_main
+tex	src/graphics/bitmap_font.h	/^	SDL_Texture *tex;$/;"	m	struct:bitmap_font
+tex	src/graphics/game/sprite.h	/^	struct sprite_tex tex;$/;"	m	struct:sprite	typeref:struct:sprite::sprite_tex
+tex	src/graphics/game/texture.h	/^	struct SDL_Texture *tex;$/;"	m	struct:texture_set	typeref:struct:texture_set::SDL_Texture
+tex_cache	src/graphics/game/texture.c	/^static struct texture_cache tex_cache;$/;"	v	typeref:struct:texture_cache	file:
+tex_path	src/graphics/game/texture.h	/^	char tex_path[TEX_MAX_PATH_LEN];$/;"	m	struct:texture_set
+tex_size	src/graphics/bitmap_font.h	/^	vec2 tex_size;$/;"	m	struct:bitmap_font
+text	src/graphics/bitmap_font.h	/^	char text[MAX_TEXT_LEN];$/;"	m	struct:bitmap_text
+text	src/graphics/textbox.h	/^	char *text;$/;"	m	struct:textbox
+text_arr	src/graphics/menu/menu_main.c	/^static struct bitmap_text *text_arr[TEXT_ARR_SIZE];$/;"	v	typeref:struct:bitmap_text	file:
+textbox	src/graphics/textbox.h	/^textbox$/;"	s
+textbox_destroy	src/graphics/textbox.c	/^textbox_destroy(struct textbox *textbox)$/;"	f
+textbox_init	src/graphics/textbox.c	/^textbox_init(const struct graphics *gfx, vec2 pos, vec2 size)$/;"	f
+textbox_login_password	src/graphics/menu/menu_main.h	/^	struct textbox *textbox_login_password;$/;"	m	struct:menu_main	typeref:struct:menu_main::textbox
+textbox_login_user_name	src/graphics/menu/menu_main.h	/^	struct textbox *textbox_login_user_name;$/;"	m	struct:menu_main	typeref:struct:menu_main::textbox
+textbox_render	src/graphics/textbox.c	/^textbox_render(struct textbox *textbox, const struct graphics *gfx)$/;"	f
+textbox_set_text_size	src/graphics/textbox.c	/^textbox_set_text_size(struct textbox *textbox, uint16_t size)$/;"	f
+texture	src/graphics/game/sprite.h	/^	SDL_Texture *texture;$/;"	m	struct:sprite_tex
+texture_cache	src/graphics/game/texture.h	/^texture_cache$/;"	s
+texture_destroy	src/graphics/game/texture.c	/^texture_destroy(void)$/;"	f
+texture_get	src/graphics/game/texture.c	/^texture_get(const char *path)$/;"	f
+texture_get_tex_set	src/graphics/game/texture.c	/^texture_get_tex_set(const char *path)$/;"	f
+texture_init	src/graphics/game/texture.c	/^texture_init(SDL_Renderer *renderer)$/;"	f
+texture_set	src/graphics/game/texture.h	/^texture_set$/;"	s
+tick_count	src/engine.h	/^	uint32_t tick_count;$/;"	m	struct:engine_info
+ticks	src/graphics/menu/menu_main.c	/^static uint64_t ticks = 0;$/;"	v	file:
+tile_count	src/graphics/bitmap_font.h	/^	vec2 tile_count;$/;"	m	struct:bitmap_font
+tile_size	src/graphics/bitmap_font.h	/^	vec2 tile_size;$/;"	m	struct:bitmap_font
+time	src/graphics/menu/menu_main.h	/^	float time;$/;"	m	struct:time_cycle
+time_cycle	src/graphics/menu/menu_main.h	/^time_cycle$/;"	s
+time_cycle_add_index	src/graphics/menu/menu_main.c	/^time_cycle_add_index(void)$/;"	f
+time_cycle_init	src/graphics/menu/menu_main.c	/^time_cycle_init(uint8_t id, uint32_t duration, uint32_t lerp_duration, struct val color)$/;"	f	file:
+time_cycle_smooth_color_change	src/graphics/menu/menu_main.c	/^time_cycle_smooth_color_change(void)$/;"	f	file:
+time_cycle_update_scene_colors	src/graphics/menu/menu_main.c	/^time_cycle_update_scene_colors(void)$/;"	f	file:
+timer	src/graphics/game/animation.h	/^	uint32_t timer;$/;"	m	struct:animation
+transition	src/graphics/menu/menu.h	/^	struct sprite transition;	$/;"	m	struct:menu	typeref:struct:menu::sprite
+transitioning	src/graphics/menu/menu.h	/^	bool transitioning;$/;"	m	struct:menu
+type	src/graphics/data/data_render_hero.h	/^	enum hero_type type;$/;"	m	struct:data_render_hero	typeref:enum:data_render_hero::hero_type
+type	src/graphics/data/data_render_spell.h	/^	enum spell_type type;$/;"	m	struct:data_render_spell	typeref:enum:data_render_spell::spell_type
+values	src/debug.c	/^static struct debug_values values;$/;"	v	typeref:struct:debug_values	file:
+view_follow_hero	src/graphics/game/camera.h	/^	bool view_follow_hero;$/;"	m	struct:camera
+visible	src/graphics/game/sprite.h	/^	bool visible;$/;"	m	struct:sprite
+window	src/graphics/graphics.h	/^	SDL_Window *window;$/;"	m	struct:graphics
+y_sort	src/graphics/game/sprite.h	/^	uint16_t y_sort;$/;"	m	struct:sprite
+z_layer	src/graphics/game/sprite.h	/^	uint8_t z_layer;$/;"	m	struct:sprite

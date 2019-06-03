@@ -1,0 +1,660 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AVATAR_HEIGHT	src/game/hero/hero_info.h	5;"	d
+AVATAR_WIDTH	src/game/hero/hero_info.h	4;"	d
+COLLISION__	src/game/collision.h	2;"	d
+COLOR_GREEN	src/util/game_values.h	54;"	d
+COLOR_RED	src/util/game_values.h	53;"	d
+COLOR_WHITE	src/util/game_values.h	52;"	d
+COMMAND_HERO_SPELL_CAST	src/game/command.h	/^	COMMAND_HERO_SPELL_CAST,$/;"	e	enum:command_type
+COMMAND_INPUT	src/game/command.h	/^	COMMAND_INPUT,$/;"	e	enum:command_type
+COMMAND_INVALID	src/game/command.h	/^	COMMAND_INVALID, $/;"	e	enum:command_type
+COMMAND_WORLD_SNAPSHOT	src/game/command.h	/^	COMMAND_WORLD_SNAPSHOT,$/;"	e	enum:command_type
+COMMAND__	src/game/command.h	2;"	d
+CONFUSED	src/game/hero/hero.h	/^	CONFUSED = 1 << 4$/;"	e	enum:hero_flags
+DATA_HERO_ARCHER__	src/data/heroes/data_hero_archer.h	2;"	d
+DATA_HERO_CACHE_SIZE	src/util/game_values.h	38;"	d
+DATA_INFO__	src/data/data_info.h	2;"	d
+DATA_SPELL_CACHE_SIZE	src/util/game_values.h	39;"	d
+DATA_SPELL__	src/data/data_spell.h	2;"	d
+DIRECTION__	src/game/direction.h	2;"	d
+DIR_COUNT	src/game/direction.h	/^	DIR_COUNT,$/;"	e	enum:direction
+DIR_E	src/game/direction.h	/^	DIR_E,$/;"	e	enum:direction
+DIR_N	src/game/direction.h	/^	DIR_N,$/;"	e	enum:direction
+DIR_NE	src/game/direction.h	/^	DIR_NE,$/;"	e	enum:direction
+DIR_NONE	src/game/direction.h	/^	DIR_NONE$/;"	e	enum:direction
+DIR_NW	src/game/direction.h	/^	DIR_NW,$/;"	e	enum:direction
+DIR_S	src/game/direction.h	/^	DIR_S,$/;"	e	enum:direction
+DIR_SE	src/game/direction.h	/^	DIR_SE,$/;"	e	enum:direction
+DIR_SW	src/game/direction.h	/^	DIR_SW,$/;"	e	enum:direction
+DIR_W	src/game/direction.h	/^	DIR_W,$/;"	e	enum:direction
+DISCONNECT_TIME	src/util/game_values.h	14;"	d
+FLAG_INPUT_CAST0	src/util/game_util.h	/^	FLAG_INPUT_CAST0 = 1 << 4,$/;"	e	enum:input_bit_flag
+FLAG_INPUT_CAST1	src/util/game_util.h	/^	FLAG_INPUT_CAST1 = 1 << 5,$/;"	e	enum:input_bit_flag
+FLAG_INPUT_CAST2	src/util/game_util.h	/^	FLAG_INPUT_CAST2 = 1 << 6,$/;"	e	enum:input_bit_flag
+FLAG_INPUT_CAST3	src/util/game_util.h	/^	FLAG_INPUT_CAST3 = 1 << 7,$/;"	e	enum:input_bit_flag
+FLAG_INPUT_CAST4	src/util/game_util.h	/^	FLAG_INPUT_CAST4 = 1 << 8,$/;"	e	enum:input_bit_flag
+FLAG_INPUT_CAST_CANCEL	src/util/game_util.h	/^	FLAG_INPUT_CAST_CANCEL= 1 << 9,$/;"	e	enum:input_bit_flag
+FLAG_INPUT_COUNT	src/util/game_util.h	/^	FLAG_INPUT_COUNT$/;"	e	enum:input_bit_flag
+FLAG_INPUT_DOWN	src/util/game_util.h	/^	FLAG_INPUT_DOWN = 1 << 2,$/;"	e	enum:input_bit_flag
+FLAG_INPUT_LEFT	src/util/game_util.h	/^	FLAG_INPUT_LEFT = 1 << 1,$/;"	e	enum:input_bit_flag
+FLAG_INPUT_RIGHT	src/util/game_util.h	/^	FLAG_INPUT_RIGHT = 1 << 3,$/;"	e	enum:input_bit_flag
+FLAG_INPUT_UP	src/util/game_util.h	/^	FLAG_INPUT_UP = 1 << 0,$/;"	e	enum:input_bit_flag
+FLAG_WORLD_SNAPSHOT_ACTION	src/game/command.h	/^	FLAG_WORLD_SNAPSHOT_ACTION = 1 << 4,$/;"	e	enum:world_snapshot_flags
+FLAG_WORLD_SNAPSHOT_CD0	src/game/command.h	/^	FLAG_WORLD_SNAPSHOT_CD0 = 1 << 10,$/;"	e	enum:world_snapshot_flags
+FLAG_WORLD_SNAPSHOT_CD1	src/game/command.h	/^	FLAG_WORLD_SNAPSHOT_CD1 = 1 << 11,$/;"	e	enum:world_snapshot_flags
+FLAG_WORLD_SNAPSHOT_CD2	src/game/command.h	/^	FLAG_WORLD_SNAPSHOT_CD2 = 1 << 12,$/;"	e	enum:world_snapshot_flags
+FLAG_WORLD_SNAPSHOT_CD3	src/game/command.h	/^	FLAG_WORLD_SNAPSHOT_CD3 = 1 << 13,$/;"	e	enum:world_snapshot_flags
+FLAG_WORLD_SNAPSHOT_CD4	src/game/command.h	/^	FLAG_WORLD_SNAPSHOT_CD4 = 1 << 14$/;"	e	enum:world_snapshot_flags
+FLAG_WORLD_SNAPSHOT_DIR	src/game/command.h	/^	FLAG_WORLD_SNAPSHOT_DIR = 1 << 5,$/;"	e	enum:world_snapshot_flags
+FLAG_WORLD_SNAPSHOT_FLAGS_HERO	src/game/command.h	/^	FLAG_WORLD_SNAPSHOT_FLAGS_HERO = 1 << 8,$/;"	e	enum:world_snapshot_flags
+FLAG_WORLD_SNAPSHOT_HAS_ULT	src/game/command.h	/^	FLAG_WORLD_SNAPSHOT_HAS_ULT = 1 << 9,$/;"	e	enum:world_snapshot_flags
+FLAG_WORLD_SNAPSHOT_HP	src/game/command.h	/^	FLAG_WORLD_SNAPSHOT_HP = 1 << 7,$/;"	e	enum:world_snapshot_flags
+FLAG_WORLD_SNAPSHOT_HP_BASE	src/game/command.h	/^	FLAG_WORLD_SNAPSHOT_HP_BASE = 1 << 6,$/;"	e	enum:world_snapshot_flags
+FLAG_WORLD_SNAPSHOT_INPUT	src/game/command.h	/^	FLAG_WORLD_SNAPSHOT_INPUT = 1 << 3,$/;"	e	enum:world_snapshot_flags
+FLAG_WORLD_SNAPSHOT_POS_INTERP	src/game/command.h	/^	FLAG_WORLD_SNAPSHOT_POS_INTERP = 1 << 0,$/;"	e	enum:world_snapshot_flags
+FLAG_WORLD_SNAPSHOT_POS_X	src/game/command.h	/^	FLAG_WORLD_SNAPSHOT_POS_X = 1 << 1,$/;"	e	enum:world_snapshot_flags
+FLAG_WORLD_SNAPSHOT_POS_Y	src/game/command.h	/^	FLAG_WORLD_SNAPSHOT_POS_Y = 1 << 2,$/;"	e	enum:world_snapshot_flags
+FLOAT_MUL	src/network/packet.h	37;"	d
+FRIEND__	src/network/friend.h	2;"	d
+GAME_KEY	src/network/packet.h	19;"	d
+GAME_UTIL__	src/util/game_util.h	2;"	d
+GAME_VALUES__	src/util/game_values.h	2;"	d
+GAME__	src/game/game.h	2;"	d
+GRID_SIZE	src/game/tile_grid.h	12;"	d
+HEADER_SIZE	src/network/packet.h	26;"	d
+HERO_ACTION_CAST_SPELL0	src/game/hero/hero_info.h	/^	HERO_ACTION_CAST_SPELL0,$/;"	e	enum:hero_action
+HERO_ACTION_CAST_SPELL1	src/game/hero/hero_info.h	/^	HERO_ACTION_CAST_SPELL1,$/;"	e	enum:hero_action
+HERO_ACTION_CAST_SPELL2	src/game/hero/hero_info.h	/^	HERO_ACTION_CAST_SPELL2,$/;"	e	enum:hero_action
+HERO_ACTION_CAST_SPELL3	src/game/hero/hero_info.h	/^	HERO_ACTION_CAST_SPELL3,$/;"	e	enum:hero_action
+HERO_ACTION_CAST_SPELL4	src/game/hero/hero_info.h	/^	HERO_ACTION_CAST_SPELL4,$/;"	e	enum:hero_action
+HERO_ACTION_COUNT	src/game/hero/hero_info.h	/^	HERO_ACTION_COUNT$/;"	e	enum:hero_action
+HERO_ACTION_IDLE	src/game/hero/hero_info.h	/^	HERO_ACTION_IDLE,$/;"	e	enum:hero_action
+HERO_ACTION_WALK	src/game/hero/hero_info.h	/^	HERO_ACTION_WALK,$/;"	e	enum:hero_action
+HERO_HITBOX_BODY	src/game/hero/hero.h	31;"	d
+HERO_HITBOX_COUNT	src/game/hero/hero.h	33;"	d
+HERO_HITBOX_FEET	src/game/hero/hero.h	32;"	d
+HERO_HITBOX_FULL	src/game/hero/hero.h	30;"	d
+HERO_INFO__	src/game/hero/hero_info.h	2;"	d
+HERO_TYPE_ARCHER	src/game/hero/hero_info.h	/^	HERO_TYPE_ARCHER,$/;"	e	enum:hero_type
+HERO__	src/game/hero/hero.h	2;"	d
+HITBOX__	src/game/hitbox.h	2;"	d
+ID_POOL__	src/util/id_pool.h	2;"	d
+L	src/util/log.c	/^} L;$/;"	v	typeref:struct:__anon2	file:
+LOG_DEBUG	src/util/log.h	/^	LOG_DEBUG, $/;"	e	enum:__anon3
+LOG_ERROR	src/util/log.h	/^	LOG_ERROR, $/;"	e	enum:__anon3
+LOG_FATAL	src/util/log.h	/^	LOG_FATAL $/;"	e	enum:__anon3
+LOG_H__	src/util/log.h	2;"	d
+LOG_INFO	src/util/log.h	/^	LOG_INFO, $/;"	e	enum:__anon3
+LOG_TRACE	src/util/log.h	/^	LOG_TRACE, $/;"	e	enum:__anon3
+LOG_USE_COLOR	src/util/log.h	9;"	d
+LOG_VERSION	src/util/log.h	7;"	d
+LOG_WARN	src/util/log.h	/^	LOG_WARN, $/;"	e	enum:__anon3
+MAX_ATTACK_SPEED	src/util/game_values.h	30;"	d
+MAX_COMMANDS	src/util/game_values.h	32;"	d
+MAX_COMMANDS_HISTORY	src/util/game_values.h	33;"	d
+MAX_EMAIL_LEN	src/util/game_values.h	19;"	d
+MAX_ENTITIES	src/util/game_values.h	29;"	d
+MAX_FRIENDS	src/util/game_values.h	44;"	d
+MAX_NAME_LEN	src/util/game_values.h	36;"	d
+MAX_PARTY_SIZE	src/util/game_values.h	24;"	d
+MAX_PASSWORD_LEN	src/util/game_values.h	18;"	d
+MAX_PLAYERS	src/util/game_values.h	23;"	d
+MAX_SPELLS	src/util/game_values.h	26;"	d
+MAX_TEAM_SIZE	src/util/game_values.h	22;"	d
+MAX_TEXT_LEN	src/util/game_values.h	16;"	d
+MAX_UNIT_TILE_SIZE	src/util/game_values.h	34;"	d
+MAX_USERNAME_LEN	src/util/game_values.h	17;"	d
+MEM_POOL__	src/util/mem_pool.h	2;"	d
+MIN_PASSWORD_LEN	src/util/game_values.h	20;"	d
+NEIGHBOR_AMOUNT	src/game/tile_grid.h	13;"	d
+NETWORK_PORT	src/util/game_values.h	7;"	d
+PACKET_ACK	src/network/packet.h	/^	PACKET_ACK,$/;"	e	enum:packet_type
+PACKET_ARR_SIZE	src/network/packet.h	31;"	d
+PACKET_BUF_SIZE	src/network/packet.h	29;"	d
+PACKET_DISCONNECT	src/network/packet.h	/^	PACKET_DISCONNECT,$/;"	e	enum:packet_type
+PACKET_INPUT	src/network/packet.h	/^	PACKET_INPUT,$/;"	e	enum:packet_type
+PACKET_INVALID	src/network/packet.h	/^	PACKET_INVALID,$/;"	e	enum:packet_type
+PACKET_IS_RELIABLE_SIZE	src/network/packet.h	22;"	d
+PACKET_KEY_SIZE	src/network/packet.h	21;"	d
+PACKET_PARTY_ADD	src/network/packet.h	/^	PACKET_PARTY_ADD,$/;"	e	enum:packet_type
+PACKET_PARTY_INVITE	src/network/packet.h	/^	PACKET_PARTY_INVITE,$/;"	e	enum:packet_type
+PACKET_PARTY_INVITE_ACCEPT	src/network/packet.h	/^	PACKET_PARTY_INVITE_ACCEPT,$/;"	e	enum:packet_type
+PACKET_PARTY_INVITE_DECLINE	src/network/packet.h	/^	PACKET_PARTY_INVITE_DECLINE,$/;"	e	enum:packet_type
+PACKET_PARTY_JOIN	src/network/packet.h	/^	PACKET_PARTY_JOIN,$/;"	e	enum:packet_type
+PACKET_PARTY_KICK	src/network/packet.h	/^	PACKET_PARTY_KICK,$/;"	e	enum:packet_type
+PACKET_PARTY_LEAVE	src/network/packet.h	/^	PACKET_PARTY_LEAVE,$/;"	e	enum:packet_type
+PACKET_PARTY_QUE	src/network/packet.h	/^	PACKET_PARTY_QUE,$/;"	e	enum:packet_type
+PACKET_PING	src/network/packet.h	/^	PACKET_PING,$/;"	e	enum:packet_type
+PACKET_RESEND_WAIT_TIME	src/network/packet.h	35;"	d
+PACKET_RESULT_CODE__	src/network/packet_result_code.h	2;"	d
+PACKET_ROOM_ADD	src/network/packet.h	/^	PACKET_ROOM_ADD,$/;"	e	enum:packet_type
+PACKET_ROOM_GAME_START	src/network/packet.h	/^	PACKET_ROOM_GAME_START,$/;"	e	enum:packet_type
+PACKET_ROOM_HERO_CHANGE	src/network/packet.h	/^	PACKET_ROOM_HERO_CHANGE,$/;"	e	enum:packet_type
+PACKET_ROOM_JOIN	src/network/packet.h	/^	PACKET_ROOM_JOIN,$/;"	e	enum:packet_type
+PACKET_ROOM_LEAVE	src/network/packet.h	/^	PACKET_ROOM_LEAVE,$/;"	e	enum:packet_type
+PACKET_SEQ_SIZE	src/network/packet.h	23;"	d
+PACKET_TYPE_SIZE	src/network/packet.h	24;"	d
+PACKET_USER_LOGIN	src/network/packet.h	/^	PACKET_USER_LOGIN,$/;"	e	enum:packet_type
+PACKET_USER_REGISTER	src/network/packet.h	/^	PACKET_USER_REGISTER,$/;"	e	enum:packet_type
+PACKET_WORLD_SNAPSHOT	src/network/packet.h	/^	PACKET_WORLD_SNAPSHOT,$/;"	e	enum:packet_type
+PACKET_WORLD_SPELL_ADD	src/network/packet.h	/^	PACKET_WORLD_SPELL_ADD$/;"	e	enum:packet_type
+PACKET_WORLD_SPELL_CAST	src/network/packet.h	/^	PACKET_WORLD_SPELL_CAST,$/;"	e	enum:packet_type
+PACKET_WRITE_MAX_ATTEMPTS	src/network/packet.h	33;"	d
+PACKET__	src/network/packet.h	2;"	d
+PARTY__	src/network/party.h	2;"	d
+PATHFINDING__	src/game/pathfinding.h	2;"	d
+PING_TIME	src/util/game_values.h	13;"	d
+RESPAWN_TIME	src/util/game_values.h	49;"	d
+RESULT_ERROR_DATABASE	src/network/packet_result_code.h	/^	RESULT_ERROR_DATABASE,$/;"	e	enum:packet_result
+RESULT_ERROR_UNKNOWN	src/network/packet_result_code.h	/^	RESULT_ERROR_UNKNOWN,$/;"	e	enum:packet_result
+RESULT_USER_LOGIN_ACCOUNT_LOGGED_IN	src/network/packet_result_code.h	/^	RESULT_USER_LOGIN_ACCOUNT_LOGGED_IN,$/;"	e	enum:packet_result
+RESULT_USER_LOGIN_BANNED	src/network/packet_result_code.h	/^	RESULT_USER_LOGIN_BANNED,$/;"	e	enum:packet_result
+RESULT_USER_LOGIN_INVALID_PASSWORD	src/network/packet_result_code.h	/^	RESULT_USER_LOGIN_INVALID_PASSWORD,$/;"	e	enum:packet_result
+RESULT_USER_LOGIN_SUCCESS	src/network/packet_result_code.h	/^	RESULT_USER_LOGIN_SUCCESS,$/;"	e	enum:packet_result
+RESULT_USER_LOGIN_USERNAME_DOESNT_EXIST	src/network/packet_result_code.h	/^	RESULT_USER_LOGIN_USERNAME_DOESNT_EXIST,$/;"	e	enum:packet_result
+RESULT_USER_REGISTER_INVALID_EMAIL	src/network/packet_result_code.h	/^	RESULT_USER_REGISTER_INVALID_EMAIL,$/;"	e	enum:packet_result
+RESULT_USER_REGISTER_PASSWORD_TOO_LONG	src/network/packet_result_code.h	/^	RESULT_USER_REGISTER_PASSWORD_TOO_LONG,$/;"	e	enum:packet_result
+RESULT_USER_REGISTER_PASSWORD_TOO_SHORT	src/network/packet_result_code.h	/^	RESULT_USER_REGISTER_PASSWORD_TOO_SHORT,$/;"	e	enum:packet_result
+RESULT_USER_REGISTER_SUCCESS	src/network/packet_result_code.h	/^	RESULT_USER_REGISTER_SUCCESS,$/;"	e	enum:packet_result
+RESULT_USER_REGISTER_USERNAME_EXISTS	src/network/packet_result_code.h	/^	RESULT_USER_REGISTER_USERNAME_EXISTS,$/;"	e	enum:packet_result
+RESULT_USER_REGISTER_USERNAME_TOO_LONG	src/network/packet_result_code.h	/^	RESULT_USER_REGISTER_USERNAME_TOO_LONG,$/;"	e	enum:packet_result
+RES_HEIGHT	src/util/game_values.h	47;"	d
+RES_WIDTH	src/util/game_values.h	46;"	d
+ROOM_START_GAME_TIME	src/util/game_values.h	11;"	d
+ROOTED	src/game/hero/hero.h	/^	ROOTED = 1 << 2,$/;"	e	enum:hero_flags
+SERVER_IP_1	src/util/game_values.h	4;"	d
+SERVER_IP_2	src/util/game_values.h	5;"	d
+SILENCED	src/game/hero/hero.h	/^	SILENCED = 1 << 3,$/;"	e	enum:hero_flags
+SLOWED	src/game/hero/hero.h	/^	SLOWED = 1 << 1,$/;"	e	enum:hero_flags
+SPELL_ARCHER_ARROW_CAST_TIME	src/data/heroes/data_hero_archer.h	10;"	d
+SPELL_ARCHER_ARROW_COOLDOWN	src/data/heroes/data_hero_archer.h	9;"	d
+SPELL_ARCHER_ARROW_DAMAGE	src/data/heroes/data_hero_archer.h	12;"	d
+SPELL_ARCHER_ARROW_RANGE	src/data/heroes/data_hero_archer.h	11;"	d
+SPELL_ARCHER_ARROW_RANGE	src/data/heroes/data_hero_archer.h	14;"	d
+SPELL_ARCHER_ARROW_SPEED	src/data/heroes/data_hero_archer.h	13;"	d
+SPELL_ARCHER_TRAP_DAMAGE	src/data/heroes/data_hero_archer.h	16;"	d
+SPELL_ARCHER_TRAP_DURATION	src/data/heroes/data_hero_archer.h	17;"	d
+SPELL_ARCHER_TRAP_SIGHT	src/data/heroes/data_hero_archer.h	19;"	d
+SPELL_ARCHER_TRAP_STUN_TIME	src/data/heroes/data_hero_archer.h	18;"	d
+SPELL_INFO__	src/game/spell/spell_info.h	2;"	d
+SPELL_SLOT0	src/data/data_spell.h	10;"	d
+SPELL_SLOT1	src/data/data_spell.h	11;"	d
+SPELL_SLOT2	src/data/data_spell.h	12;"	d
+SPELL_SLOT3	src/data/data_spell.h	13;"	d
+SPELL_SLOT4	src/data/data_spell.h	14;"	d
+SPELL_SLOTS	src/util/game_values.h	27;"	d
+SPELL_TYPE_ARCHER_ARROW	src/game/spell/spell_info.h	/^	SPELL_TYPE_ARCHER_ARROW = 0,$/;"	e	enum:spell_type
+SPELL_TYPE_ARCHER_TRAP	src/game/spell/spell_info.h	/^	SPELL_TYPE_ARCHER_TRAP = 1,$/;"	e	enum:spell_type
+SPELL__	src/game/spell/spell.h	2;"	d
+STUNNED	src/game/hero/hero.h	/^	STUNNED = 1 << 0,$/;"	e	enum:hero_flags
+S_LIST__	src/util/s_list.h	2;"	d
+TEAM0	src/util/game_values.h	41;"	d
+TEAM1	src/util/game_values.h	42;"	d
+TICKS_PER_SECOND	src/util/game_values.h	8;"	d
+TICK_PERIOD	src/util/game_values.h	9;"	d
+TILE_GRID__	src/game/tile_grid.h	2;"	d
+TILE_SIZE	src/game/tile_grid.h	11;"	d
+UTIL_FUNCS__	src/util/util_funcs.h	2;"	d
+VEC2__	src/util/vec2.h	2;"	d
+WORLD__	src/game/world.h	2;"	d
+a	src/util/game_util.h	/^		uint8_t a;$/;"	m	struct:color::val
+ack_bit_field	src/network/packet.h	/^	uint32_t ack_bit_field;$/;"	m	struct:packet_buffer
+action	src/game/command.h	/^	uint8_t action;$/;"	m	struct:command_update_ally
+action	src/game/command.h	/^	uint8_t action;$/;"	m	struct:command_update_enemy
+action	src/game/command.h	/^	uint8_t action;$/;"	m	struct:command_update_local
+action	src/game/hero/hero.h	/^	enum hero_action action;$/;"	m	struct:hero	typeref:enum:hero::hero_action
+b	src/util/game_util.h	/^		uint8_t b;$/;"	m	struct:color::val
+base_data	src/game/spell/spell.h	/^	const struct data_spell *base_data;$/;"	m	struct:spell	typeref:struct:spell::data_spell
+blocked	src/game/tile_grid.h	/^	bool blocked;$/;"	m	struct:tile
+blocks	src/util/mem_pool.h	/^	uint32_t blocks;$/;"	m	struct:mem_pool
+buffer	src/network/packet.h	/^	char buffer[PACKET_BUF_SIZE];	$/;"	m	struct:packet
+c	src/util/game_util.h	/^	uint32_t c;$/;"	m	union:color
+cache	src/data/data_hero.h	/^	struct data_hero cache[DATA_HERO_CACHE_SIZE];$/;"	m	struct:data_hero_cache	typeref:struct:data_hero_cache::data_hero
+cache	src/data/data_spell.h	/^	struct data_spell_set cache[DATA_SPELL_CACHE_SIZE];$/;"	m	struct:data_spell_cache	typeref:struct:data_spell_cache::data_spell_set
+cast_slot	src/game/hero/hero.h	/^	uint8_t cast_slot;$/;"	m	struct:hero
+cast_spell	src/game/hero/hero.h	/^	struct spell cast_spell;$/;"	m	struct:hero	typeref:struct:hero::spell
+cast_time	src/data/data_spell.h	/^	float cast_time;$/;"	m	struct:data_spell
+cast_timer	src/game/hero/hero.h	/^	float cast_timer;$/;"	m	struct:hero
+caster	src/game/command.h	/^	struct hero *caster;$/;"	m	struct:command_hero_spell_cast	typeref:struct:command_hero_spell_cast::hero
+caster	src/game/spell/spell.h	/^	struct hero *caster;$/;"	m	struct:spell	typeref:struct:spell::hero
+cd0	src/game/command.h	/^	uint16_t cd0;$/;"	m	struct:command_update_local
+cd1	src/game/command.h	/^	uint16_t cd1;$/;"	m	struct:command_update_local
+cd2	src/game/command.h	/^	uint16_t cd2;$/;"	m	struct:command_update_local
+cd3	src/game/command.h	/^	uint16_t cd3;$/;"	m	struct:command_update_local
+cd4	src/game/command.h	/^	uint16_t cd4;$/;"	m	struct:command_update_local
+cd_spells	src/game/hero/hero.h	/^	float cd_spells[SPELL_SLOTS];$/;"	m	struct:hero
+channeled	src/data/data_spell.h	/^	bool channeled;$/;"	m	struct:data_spell
+checked	src/game/tile_grid.h	/^	bool checked;$/;"	m	struct:tile
+clamp	src/util/util_funcs.h	7;"	d
+collide	src/game/pathfinding.h	/^	bool collide;$/;"	m	struct:pf_settings
+color	src/util/game_util.h	/^color$/;"	u
+color_init	src/util/game_util.c	/^color_init(uint8_t r, uint8_t g, uint8_t b, uint8_t a)$/;"	f
+color_init_c	src/util/game_util.c	/^color_init_c(uint32_t c)$/;"	f
+command	src/game/command.h	/^command$/;"	s
+command_count_history	src/game/game.h	/^	uint16_t command_count_history;$/;"	m	struct:game
+command_destroy	src/game/command.c	/^command_destroy(struct command *command)$/;"	f
+command_hero_spell_cast	src/game/command.h	/^command_hero_spell_cast$/;"	s
+command_history	src/game/game.h	/^	struct command command_history[MAX_COMMANDS_HISTORY]; \/\/ Little over 15 minutes of history$/;"	m	struct:game	typeref:struct:game::command
+command_init	src/game/command.c	/^command_init($/;"	f	file:
+command_init_hero_spell_cast	src/game/command.c	/^command_init_hero_spell_cast(struct command *command, struct command_hero_spell_cast *sc)$/;"	f
+command_init_input	src/game/command.c	/^command_init_input(struct command *command, struct command_input *ci)$/;"	f
+command_init_world_snapshot	src/game/command.c	/^command_init_world_snapshot(struct command *command, struct command_world_snapshot *ss)$/;"	f
+command_input	src/game/command.h	/^command_input$/;"	s
+command_process	src/game/command.c	/^command_process(struct command *command, struct world *world)$/;"	f
+command_process_hero_spell_cast	src/game/command.c	/^command_process_hero_spell_cast(struct command *command, struct world *world)$/;"	f
+command_process_input	src/game/command.c	/^command_process_input(struct command *command, struct world *world)$/;"	f
+command_process_world_snapshot	src/game/command.c	/^command_process_world_snapshot(struct command *command, struct world *world)$/;"	f
+command_processer	src/game/command.h	/^typedef void (*command_processer)(struct command *command, struct world *world);$/;"	t
+command_type	src/game/command.h	/^command_type$/;"	g
+command_update_ally	src/game/command.h	/^command_update_ally$/;"	s
+command_update_enemy	src/game/command.h	/^command_update_enemy$/;"	s
+command_update_local	src/game/command.h	/^command_update_local$/;"	s
+command_world_snapshot	src/game/command.h	/^command_world_snapshot$/;"	s
+commands	src/game/game.h	/^	struct command commands[MAX_COMMANDS];$/;"	m	struct:game	typeref:struct:game::command
+cooldown	src/data/data_spell.h	/^	float cooldown;$/;"	m	struct:data_spell
+count_update_ally	src/game/command.h	/^	uint8_t count_update_ally;$/;"	m	struct:command_world_snapshot
+count_update_enemy	src/game/command.h	/^	uint8_t count_update_enemy;$/;"	m	struct:command_world_snapshot
+damage	src/data/heroes/data_hero_archer.h	/^	const float damage;$/;"	m	struct:spell_archer_arrow
+damage	src/data/heroes/data_hero_archer.h	/^	const float damage;$/;"	m	struct:spell_archer_trap
+damage_magic	src/data/data_hero.h	/^	uint16_t damage_magic;$/;"	m	struct:data_hero
+damage_magic	src/game/hero/hero.h	/^	uint16_t damage_magic;$/;"	m	struct:hero
+damage_physical	src/data/data_hero.h	/^	uint16_t damage_physical;$/;"	m	struct:data_hero
+damage_physical	src/game/hero/hero.h	/^	uint16_t damage_physical;$/;"	m	struct:hero
+data	src/game/command.h	/^	void *data;$/;"	m	struct:command
+data	src/game/hero/hero.h	/^	const struct data_hero *data;$/;"	m	struct:hero	typeref:struct:hero::data_hero
+data	src/util/s_list.h	/^	void *data;$/;"	m	struct:s_list_node
+data__	src/data/data_hero.h	2;"	d
+data_hero	src/data/data_hero.h	/^data_hero$/;"	s
+data_hero_cache	src/data/data_hero.c	/^data_hero_cache(void)$/;"	f
+data_hero_cache	src/data/data_hero.h	/^data_hero_cache$/;"	s
+data_hero_get	src/data/data_hero.c	/^data_hero_get(enum hero_type type)$/;"	f
+data_hero_init	src/data/data_hero.c	/^data_hero_init(void)$/;"	f
+data_hero_init_archer	src/data/heroes/data_hero_archer.c	/^data_hero_init_archer(void)$/;"	f
+data_spell	src/data/data_spell.h	/^data_spell$/;"	s
+data_spell_cache	src/data/data_spell.c	/^data_spell_cache(void)$/;"	f
+data_spell_cache	src/data/data_spell.h	/^data_spell_cache$/;"	s
+data_spell_init	src/data/data_spell.c	/^data_spell_init(void)$/;"	f
+data_spell_init_archer	src/data/heroes/data_hero_archer.c	/^data_spell_init_archer(void)$/;"	f
+data_spell_init_arrow	src/data/heroes/data_hero_archer.c	/^data_spell_init_arrow(void)$/;"	f	file:
+data_spell_init_trap	src/data/heroes/data_hero_archer.c	/^data_spell_init_trap(void)$/;"	f	file:
+data_spell_set	src/data/data_spell.h	/^data_spell_set$/;"	s
+data_spell_set_cooldowns	src/data/data_spell.c	/^data_spell_set_cooldowns(void)$/;"	f	file:
+data_spell_set_get	src/data/data_spell.c	/^data_spell_set_get(enum hero_type hero_type)$/;"	f
+dead	src/game/hero/hero.h	/^	bool dead;$/;"	m	struct:hero
+dir	src/game/command.h	/^	enum direction dir;$/;"	m	struct:command_input	typeref:enum:command_input::direction
+dir	src/game/command.h	/^	uint8_t dir;$/;"	m	struct:command_update_ally
+dir	src/game/command.h	/^	uint8_t dir;$/;"	m	struct:command_update_enemy
+dir	src/game/hero/hero.h	/^	enum direction dir;	$/;"	m	struct:hero	typeref:enum:hero::direction
+dir_from_mouse	src/util/game_util.c	/^dir_from_mouse(vec2 mouse_pos, vec2 pos)$/;"	f
+direction	src/game/direction.h	/^direction$/;"	g
+duration	src/data/heroes/data_hero_archer.h	/^	const float duration;$/;"	m	struct:spell_archer_trap
+f	src/game/tile_grid.h	/^	int32_t f; \/\/ h + g$/;"	m	struct:tile
+face_dir	src/util/game_util.c	/^face_dir(vec2 dst, vec2 pos)$/;"	f
+fire_arrow_count	src/game/hero/hero_info.h	/^	uint8_t fire_arrow_count;$/;"	m	struct:hero_archer
+flags_hero	src/game/command.h	/^	uint16_t flags_hero;$/;"	m	struct:command_update_ally
+flags_hero	src/game/command.h	/^	uint16_t flags_hero;$/;"	m	struct:command_update_enemy
+flags_hero	src/game/command.h	/^	uint16_t flags_hero;$/;"	m	struct:command_update_local
+flags_hero	src/game/hero/hero.h	/^	uint16_t flags_hero;$/;"	m	struct:hero
+flags_update	src/game/command.h	/^	uint16_t flags_update;$/;"	m	struct:command_update_ally
+flags_update	src/game/command.h	/^	uint16_t flags_update;$/;"	m	struct:command_update_enemy
+flags_update	src/game/command.h	/^	uint16_t flags_update;$/;"	m	struct:command_update_local
+flags_world_snapshot	src/game/hero/hero.h	/^	uint16_t flags_world_snapshot;$/;"	m	struct:hero
+fp	src/util/log.c	/^	FILE *fp;$/;"	m	struct:__anon2	file:
+friend_count	src/network/friend.h	/^	uint16_t friend_count;$/;"	m	struct:friend_list
+friend_init	src/network/friend.c	/^friend_init(uint32_t id, char *username, bool online)$/;"	f
+friend_list	src/network/friend.h	/^friend_list$/;"	s
+friend_list_add	src/network/friend.c	/^friend_list_add(struct friend_list *list, struct friend fr)$/;"	f
+friend_list_init	src/network/friend.c	/^friend_list_init(void)$/;"	f
+friend_list_remove	src/network/friend.c	/^friend_list_remove(struct friend_list *list, struct friend fr)$/;"	f
+g	src/game/tile_grid.h	/^	int32_t g; \/\/move cost$/;"	m	struct:tile
+g	src/util/game_util.h	/^		uint8_t g;$/;"	m	struct:color::val
+game	src/game/game.h	/^game$/;"	s
+game_command_dispose	src/game/game.c	/^game_command_dispose(struct game *game, struct command *command)$/;"	f
+game_command_init	src/game/game.c	/^game_command_init(struct game *game)$/;"	f
+game_destroy	src/game/game.c	/^game_destroy(struct game *game)$/;"	f
+game_init	src/game/game.c	/^game_init(void)$/;"	f
+game_update	src/game/game.c	/^game_update(struct game *game)$/;"	f
+grid	src/game/world.h	/^	struct tile_grid grid;$/;"	m	struct:world	typeref:struct:world::tile_grid
+h	src/game/tile_grid.h	/^	int32_t h; \/\/heur cost$/;"	m	struct:tile
+has_ult	src/game/command.h	/^	uint8_t has_ult;$/;"	m	struct:command_update_ally
+head	src/util/mem_pool.h	/^	void **head;$/;"	m	struct:mem_pool
+hero	src/game/command.h	/^	struct hero *hero;$/;"	m	struct:command_input	typeref:struct:command_input::hero
+hero	src/game/hero/hero.h	/^hero$/;"	s
+hero_action	src/game/hero/hero_info.h	/^hero_action$/;"	g
+hero_action_cast_from_slot	src/util/game_util.c	/^hero_action_cast_from_slot(uint8_t slot)$/;"	f
+hero_action_from_input	src/util/game_util.c	/^hero_action_from_input(uint16_t input)$/;"	f
+hero_archer	src/game/hero/hero_info.h	/^hero_archer$/;"	s
+hero_cache	src/data/data_hero.c	/^static struct data_hero_cache hero_cache;$/;"	v	typeref:struct:data_hero_cache	file:
+hero_count	src/data/data_hero.h	/^	uint16_t hero_count;$/;"	m	struct:data_hero_cache
+hero_count	src/game/tile_grid.h	/^	uint8_t hero_count;$/;"	m	struct:tile
+hero_count	src/game/world.h	/^	uint8_t hero_count;$/;"	m	struct:world
+hero_data	src/game/hero/hero.h	/^	void *hero_data;$/;"	m	struct:hero
+hero_destroy	src/game/hero/hero.c	/^hero_destroy(struct hero *hero)$/;"	f
+hero_flags	src/game/hero/hero.h	/^hero_flags$/;"	g
+hero_init	src/game/hero/hero.c	/^hero_init(struct hero *hero, struct world *world, uint16_t id_hero, uint32_t id_game, uint8_t team)$/;"	f
+hero_init_archer	src/data/heroes/data_hero_archer.c	/^hero_init_archer(struct hero *hero, struct world *world, uint32_t id_game, uint8_t team)$/;"	f
+hero_init_base	src/game/hero/hero.c	/^hero_init_base($/;"	f
+hero_init_username	src/game/hero/hero.c	/^hero_init_username(struct hero *hero, char *username, union color color)$/;"	f
+hero_respawn	src/game/hero/hero.c	/^hero_respawn(struct hero *hero, struct world *world)$/;"	f
+hero_spell_cast	src/game/hero/hero.c	/^hero_spell_cast($/;"	f
+hero_type	src/data/data_spell.h	/^	enum hero_type hero_type;$/;"	m	struct:data_spell_set	typeref:enum:data_spell_set::hero_type
+hero_type	src/game/hero/hero_info.h	/^hero_type$/;"	g
+hero_update	src/game/hero/hero.c	/^hero_update(struct hero *hero, struct world *world)$/;"	f
+hero_update_action	src/game/hero/hero.c	/^hero_update_action(struct hero *hero, struct world *world)$/;"	f	file:
+hero_update_archer	src/data/heroes/data_hero_archer.c	/^hero_update_archer(struct hero *hero, struct world *world)$/;"	f	file:
+hero_update_core	src/game/hero/hero.c	/^hero_update_core(struct hero *hero, struct world *world)$/;"	f	file:
+hero_update_network	src/game/hero/hero.c	/^hero_update_network(struct hero *hero, struct world *world)$/;"	f
+hero_update_spell_cast	src/game/hero/hero.c	/^hero_update_spell_cast(struct hero *hero, struct world *world)$/;"	f	file:
+hero_updater	src/game/hero/hero.h	/^typedef void(*hero_updater)(struct hero *hero, struct world *world);$/;"	t
+heroes	src/game/tile_grid.h	/^	struct hero *heroes[MAX_PLAYERS];$/;"	m	struct:tile	typeref:struct:tile::hero
+heroes	src/game/world.h	/^	struct hero heroes[MAX_PLAYERS];$/;"	m	struct:world	typeref:struct:world::hero
+heroes_in_range	src/game/hero/hero.h	/^	struct heroes_in_range heroes_in_range;$/;"	m	struct:hero	typeref:struct:hero::heroes_in_range
+heroes_in_range	src/game/hero/hero_info.h	/^heroes_in_range$/;"	s
+heroes_seen	src/game/hero/hero_info.h	/^	struct hero *heroes_seen[MAX_PLAYERS];$/;"	m	struct:heroes_in_range	typeref:struct:heroes_in_range::hero
+heroes_seen_prev	src/game/hero/hero_info.h	/^	struct hero *heroes_seen_prev[MAX_PLAYERS];$/;"	m	struct:heroes_in_range	typeref:struct:heroes_in_range::hero
+hitbox	src/data/data_spell.h	/^	struct hitbox hitbox;$/;"	m	struct:data_spell	typeref:struct:data_spell::hitbox
+hitbox	src/game/hitbox.h	/^hitbox$/;"	s
+hitbox_body	src/data/data_hero.h	/^	struct hitbox hitbox_body;$/;"	m	struct:data_hero	typeref:struct:data_hero::hitbox
+hitbox_collides	src/game/hitbox.c	/^hitbox_collides(const struct hitbox *hb, const struct hitbox *hbo)$/;"	f
+hitbox_feet	src/data/data_hero.h	/^	struct hitbox hitbox_feet;$/;"	m	struct:data_hero	typeref:struct:data_hero::hitbox
+hitbox_full	src/data/data_hero.h	/^	struct hitbox hitbox_full;$/;"	m	struct:data_hero	typeref:struct:data_hero::hitbox
+hitbox_get_rect_size	src/game/hitbox.c	/^hitbox_get_rect_size($/;"	f
+hitbox_init	src/game/hitbox.c	/^hitbox_init(vec2 pos_offset, vec2 size)$/;"	f
+hitbox_pos_set	src/game/hitbox.c	/^hitbox_pos_set(struct hitbox *hb, vec2 pos)$/;"	f
+hitboxes	src/game/hero/hero.h	/^	struct hitbox hitboxes[HERO_HITBOX_COUNT];$/;"	m	struct:hero	typeref:struct:hero::hitbox
+hp	src/data/data_hero.h	/^	uint16_t hp;$/;"	m	struct:data_hero
+hp	src/game/command.h	/^	uint16_t hp;$/;"	m	struct:command_update_ally
+hp	src/game/command.h	/^	uint16_t hp;$/;"	m	struct:command_update_enemy
+hp	src/game/command.h	/^	uint16_t hp;$/;"	m	struct:command_update_local
+hp	src/game/hero/hero.h	/^	float hp;$/;"	m	struct:hero
+hp_base	src/game/command.h	/^	uint16_t hp_base;$/;"	m	struct:command_update_ally
+hp_base	src/game/command.h	/^	uint16_t hp_base;$/;"	m	struct:command_update_enemy
+hp_base	src/game/command.h	/^	uint16_t hp_base;$/;"	m	struct:command_update_local
+hp_base	src/game/hero/hero.h	/^	float hp_base;$/;"	m	struct:hero
+id	src/game/command.h	/^	uint32_t id;$/;"	m	struct:command_update_ally
+id	src/game/command.h	/^	uint32_t id;$/;"	m	struct:command_update_enemy
+id	src/game/command.h	/^	uint32_t id;$/;"	m	struct:command_update_local
+id	src/game/tile_grid.h	/^	uint32_t id; $/;"	m	struct:tile
+id	src/network/friend.h	/^	uint32_t id;$/;"	m	struct:__anon1
+id	src/network/party.h	/^	uint16_t id;$/;"	m	struct:party
+id	src/network/party.h	/^	uint32_t id;$/;"	m	struct:party_invite
+id	src/network/party.h	/^	uint32_t id;$/;"	m	struct:party_member
+id_game	src/game/hero/hero.h	/^	uint32_t id_game;$/;"	m	struct:hero
+id_game	src/game/spell/spell.h	/^	uint16_t id_game;$/;"	m	struct:spell
+id_hero	src/game/hero/hero.h	/^	uint16_t id_hero;$/;"	m	struct:hero
+id_hero	src/network/party.h	/^	uint16_t id_hero;$/;"	m	struct:party_member
+id_party	src/network/party.h	/^	uint16_t id_party;$/;"	m	struct:party_invite
+id_pool	src/game/world.h	/^	uint16_t *id_pool;$/;"	m	struct:world
+id_pool_destroy	src/util/id_pool.c	/^id_pool_destroy(uint16_t *pool)$/;"	f
+id_pool_get	src/util/id_pool.c	/^id_pool_get(uint16_t *pool, uint16_t size)$/;"	f
+id_pool_init	src/util/id_pool.c	/^id_pool_init(uint16_t size)$/;"	f
+id_pool_put	src/util/id_pool.c	/^id_pool_put(uint16_t *pool, uint16_t id, uint16_t size)$/;"	f
+input	src/game/command.h	/^	uint16_t input;$/;"	m	struct:command_input
+input	src/game/command.h	/^	uint16_t input;$/;"	m	struct:command_update_ally
+input	src/game/command.h	/^	uint16_t input;$/;"	m	struct:command_update_enemy
+input	src/game/hero/hero.h	/^	uint16_t input;	$/;"	m	struct:hero
+input_bit_flag	src/util/game_util.h	/^input_bit_flag$/;"	g
+leader	src/network/party.h	/^	struct party_member leader;$/;"	m	struct:party	typeref:struct:party::party_member
+len	src/network/packet.h	/^	uint16_t len;$/;"	m	struct:packet
+lerp_rgb	src/util/util_funcs.c	/^lerp_rgb(union color a, union color b, float t)$/;"	f
+level	src/util/log.c	/^	int level;$/;"	m	struct:__anon2	file:
+level_colors	src/util/log.c	/^*level_colors[] = $/;"	v	file:
+level_names	src/util/log.c	/^*level_names[] = $/;"	v	file:
+light	src/game/tile_grid.h	/^	uint16_t light; \/\/used on client for fog of war$/;"	m	struct:tile
+lock	src/util/log.c	/^	log_LockFn lock;$/;"	m	struct:__anon2	file:
+lock	src/util/log.c	/^lock(void)   $/;"	f	file:
+log_LockFn	src/util/log.h	/^(*log_LockFn)(void *udata, int lock);$/;"	t
+log_debug	src/util/log.h	25;"	d
+log_error	src/util/log.h	28;"	d
+log_fatal	src/util/log.h	29;"	d
+log_info	src/util/log.h	26;"	d
+log_log	src/util/log.c	/^log_log(int level, const char *file, int line, const char *fmt, ...) $/;"	f
+log_set_fp	src/util/log.c	/^log_set_fp(FILE *fp) $/;"	f
+log_set_level	src/util/log.c	/^log_set_level(int level) $/;"	f
+log_set_lock	src/util/log.c	/^log_set_lock(log_LockFn fn) $/;"	f
+log_set_quiet	src/util/log.c	/^log_set_quiet(int enable) $/;"	f
+log_set_udata	src/util/log.c	/^log_set_udata(void *udata) $/;"	f
+log_trace	src/util/log.h	24;"	d
+log_warn	src/util/log.h	27;"	d
+mem	src/util/mem_pool.h	/^	void *mem;$/;"	m	struct:mem_pool
+mem_pool	src/util/mem_pool.h	/^mem_pool$/;"	s
+mem_pool_destroy	src/util/mem_pool.c	/^mem_pool_destroy(struct mem_pool *pool)$/;"	f
+mem_pool_get	src/util/mem_pool.c	/^mem_pool_get(struct mem_pool *pool)$/;"	f
+mem_pool_init	src/util/mem_pool.c	/^mem_pool_init(uint32_t blocks, uint32_t mem_size)$/;"	f
+mem_pool_put	src/util/mem_pool.c	/^mem_pool_put(struct mem_pool *pool, void *mem)$/;"	f
+mem_size	src/util/mem_pool.h	/^	uint32_t mem_size;$/;"	m	struct:mem_pool
+member_count	src/network/party.h	/^	uint8_t member_count;$/;"	m	struct:party
+members	src/network/party.h	/^	struct party_member members[MAX_PARTY_SIZE]; $/;"	m	struct:party	typeref:struct:party::party_member
+move_dir_from_input	src/util/game_util.c	/^move_dir_from_input(uint16_t input)$/;"	f
+move_speed	src/data/data_hero.h	/^	float move_speed;$/;"	m	struct:data_hero
+move_speed	src/game/hero/hero.h	/^	float move_speed;$/;"	m	struct:hero
+n	src/game/tile_grid.h	/^	struct tile *n[8];$/;"	m	struct:tile_neighbors_list	typeref:struct:tile_neighbors_list::tile
+name	src/data/data_hero.h	/^	char name[MAX_NAME_LEN+1];$/;"	m	struct:data_hero
+name_color	src/network/friend.h	/^	union color name_color;$/;"	m	struct:__anon1	typeref:union:__anon1::color
+networked	src/game/hero/hero.h	/^	bool networked;$/;"	m	struct:hero
+next	src/game/tile_grid.h	/^	struct tile *next;$/;"	m	struct:tile	typeref:struct:tile::tile
+next	src/util/s_list.h	/^	struct s_list_node *next;$/;"	m	struct:s_list_node	typeref:struct:s_list_node::s_list_node
+online	src/network/friend.h	/^	bool online;$/;"	m	struct:__anon1
+packet	src/network/packet.h	/^packet$/;"	s
+packet_ack	src/network/packet.c	/^packet_ack(struct packet_buffer *pack_buf, uint8_t seq)$/;"	f	file:
+packet_ack_send	src/network/packet.c	/^packet_ack_send(struct packet_buffer *pack_buf, uint8_t seq)$/;"	f	file:
+packet_buffer	src/network/packet.h	/^packet_buffer$/;"	s
+packet_buffer_get_type	src/network/packet.c	/^packet_buffer_get_type(char *buffer)$/;"	f
+packet_buffer_init	src/network/packet.c	/^packet_buffer_init(void)$/;"	f
+packet_buffer_write	src/network/packet.c	/^packet_buffer_write(struct packet_buffer *pack_buf, int32_t fd, struct sockaddr_in addr)$/;"	f
+packet_get_key	src/network/packet.c	/^packet_get_key(const struct packet *packet)$/;"	f
+packet_get_read	src/network/packet.c	/^packet_get_read(struct packet_buffer *pack_buf, uint32_t seq)$/;"	f
+packet_get_write_history	src/network/packet.c	/^packet_get_write_history(struct packet_buffer *pack_buf, uint32_t seq)$/;"	f
+packet_init	src/network/packet.c	/^packet_init($/;"	f
+packet_read	src/network/packet.c	/^packet_read(struct packet_buffer *pack_buf, char *buffer, int32_t res)$/;"	f
+packet_read_char	src/network/packet.c	/^packet_read_char(char *data, const char *buffer, uint16_t len)$/;"	f
+packet_read_float	src/network/packet.c	/^packet_read_float(float *data, const char *buffer)$/;"	f
+packet_read_int16	src/network/packet.c	/^packet_read_int16(int16_t *data, const char *buffer)$/;"	f
+packet_read_int32	src/network/packet.c	/^packet_read_int32(int32_t *data, const char *buffer)$/;"	f
+packet_read_int8	src/network/packet.c	/^packet_read_int8(int8_t *data, const char *buffer)$/;"	f
+packet_read_uint16	src/network/packet.c	/^packet_read_uint16(uint16_t *data, const char *buffer)$/;"	f
+packet_read_uint32	src/network/packet.c	/^packet_read_uint32(uint32_t *data, const char *buffer)$/;"	f
+packet_read_uint8	src/network/packet.c	/^packet_read_uint8(uint8_t *data, const char *buffer)$/;"	f
+packet_result	src/network/packet_result_code.h	/^packet_result$/;"	g
+packet_sort_order	src/network/packet.c	/^packet_sort_order(struct packet_buffer *pack_buf)$/;"	f
+packet_type	src/network/packet.h	/^packet_type$/;"	g
+packet_write_char	src/network/packet.c	/^packet_write_char(char *buffer, const char *data, uint16_t len)$/;"	f
+packet_write_float	src/network/packet.c	/^packet_write_float(char *buffer, float data)$/;"	f
+packet_write_int16	src/network/packet.c	/^packet_write_int16(char *buffer, int16_t data)$/;"	f
+packet_write_int32	src/network/packet.c	/^packet_write_int32(char *buffer, int32_t data)$/;"	f
+packet_write_int8	src/network/packet.c	/^packet_write_int8(char *buffer, int8_t data)$/;"	f
+packet_write_uint16	src/network/packet.c	/^packet_write_uint16(char *buffer, uint16_t data)$/;"	f
+packet_write_uint32	src/network/packet.c	/^packet_write_uint32(char *buffer, uint32_t data)$/;"	f
+packet_write_uint8	src/network/packet.c	/^packet_write_uint8(char *buffer, uint8_t data)$/;"	f
+parent	src/game/tile_grid.h	/^	struct tile *parent;$/;"	m	struct:tile	typeref:struct:tile::tile
+party	src/network/party.h	/^party$/;"	s
+party_destroy	src/network/party.c	/^party_destroy(struct party *party)$/;"	f
+party_has_member	src/network/party.c	/^party_has_member(struct party *party, uint32_t id)$/;"	f
+party_init	src/network/party.c	/^party_init(uint16_t id)$/;"	f
+party_invite	src/network/party.h	/^party_invite$/;"	s
+party_invite_destroy	src/network/party.c	/^party_invite_destroy(struct party_invite *pi)$/;"	f
+party_invite_init	src/network/party.c	/^party_invite_init(uint16_t id_party, uint32_t id)$/;"	f
+party_member	src/network/party.h	/^party_member$/;"	s
+party_member_add	src/network/party.c	/^party_member_add(struct party *party, struct party_member pm)$/;"	f
+party_member_init	src/network/party.c	/^party_member_init(uint32_t id, char *username, uint32_t username_color)$/;"	f
+party_member_remove	src/network/party.c	/^party_member_remove(struct party *party, uint32_t id)$/;"	f
+path	src/game/pathfinding.h	/^	struct s_list_node *path;$/;"	m	struct:pf_path	typeref:struct:pf_path::s_list_node
+path_size	src/game/pathfinding.h	/^	uint32_t path_size;$/;"	m	struct:pf_path
+pf_add_tile	src/game/pathfinding.c	/^pf_add_tile(struct tile **list, struct tile *tile)$/;"	f	file:
+pf_diagonal_blocked	src/game/pathfinding.c	/^pf_diagonal_blocked(struct tile_neighbors_list *n, int32_t i)$/;"	f
+pf_get_min_f	src/game/pathfinding.c	/^pf_get_min_f(struct tile **list)$/;"	f	file:
+pf_heuristic_value	src/game/pathfinding.c	/^pf_heuristic_value(struct tile *tile, struct tile *end)$/;"	f	file:
+pf_path	src/game/pathfinding.h	/^pf_path$/;"	s
+pf_path_destroy	src/game/pathfinding.c	/^pf_path_destroy(struct pf_path *path)$/;"	f
+pf_path_find	src/game/pathfinding.c	/^pf_path_find($/;"	f
+pf_set_path_values	src/game/pathfinding.c	/^pf_set_path_values($/;"	f
+pf_settings	src/game/pathfinding.h	/^pf_settings$/;"	s
+pos	src/game/command.h	/^	vec2 pos;$/;"	m	struct:command_update_ally
+pos	src/game/command.h	/^	vec2 pos;$/;"	m	struct:command_update_enemy
+pos	src/game/command.h	/^	vec2 pos;$/;"	m	struct:command_update_local
+pos	src/game/hero/hero.h	/^	vec2 pos;$/;"	m	struct:hero
+pos	src/game/hitbox.h	/^	vec2 pos;$/;"	m	struct:hitbox
+pos	src/game/tile_grid.h	/^	vec2 pos;$/;"	m	struct:tile
+pos_next	src/game/hero/hero.h	/^	vec2 pos_next;$/;"	m	struct:hero
+pos_offset	src/game/hitbox.h	/^	vec2 pos_offset;$/;"	m	struct:hitbox
+process	src/game/command.h	/^	command_processer process;$/;"	m	struct:command
+processed	src/game/command.h	/^	bool processed;	$/;"	m	struct:command
+quiet	src/util/log.c	/^	int quiet;$/;"	m	struct:__anon2	file:
+r	src/util/game_util.h	/^		uint8_t r;$/;"	m	struct:color::val
+range	src/data/heroes/data_hero_archer.h	/^	const float range;$/;"	m	struct:spell_archer_arrow
+read	src/network/packet.h	/^	struct packet read[PACKET_ARR_SIZE];$/;"	m	struct:packet_buffer	typeref:struct:packet_buffer::packet
+read_count	src/network/packet.h	/^	uint16_t read_count;$/;"	m	struct:packet_buffer
+ready	src/network/party.h	/^	bool ready;$/;"	m	struct:party_member
+reliable	src/network/packet.h	/^	bool reliable; $/;"	m	struct:packet
+remove_on_death	src/data/data_spell.h	/^	bool remove_on_death;$/;"	m	struct:data_spell
+resist_magic	src/data/data_hero.h	/^	uint8_t resist_magic;$/;"	m	struct:data_hero
+resist_magic	src/game/hero/hero.h	/^	uint8_t resist_magic;$/;"	m	struct:hero
+resist_physical	src/data/data_hero.h	/^	uint8_t resist_physical;$/;"	m	struct:data_hero
+resist_physical	src/game/hero/hero.h	/^	uint8_t resist_physical;$/;"	m	struct:hero
+respawn_time	src/game/hero/hero.h	/^	int8_t respawn_time;$/;"	m	struct:hero
+round_down	src/util/util_funcs.c	/^round_down(int32_t num, int32_t multiple)$/;"	f
+round_up	src/util/util_funcs.c	/^round_up(int32_t num, int32_t multiple)$/;"	f
+s_list_add	src/util/s_list.c	/^s_list_add(struct s_list_node **head, void *data)$/;"	f
+s_list_clear	src/util/s_list.c	/^s_list_clear(struct s_list_node **head)$/;"	f
+s_list_clear_data	src/util/s_list.c	/^s_list_clear_data(struct s_list_node **head)$/;"	f
+s_list_contains	src/util/s_list.c	/^s_list_contains(struct s_list_node *head, void *data)$/;"	f
+s_list_copy	src/util/s_list.c	/^s_list_copy(struct s_list_node **dest, const struct s_list_node *src)$/;"	f
+s_list_node	src/util/s_list.h	/^s_list_node$/;"	s
+s_list_print	src/util/s_list.c	/^s_list_print(const struct s_list_node *head)$/;"	f
+s_list_remove	src/util/s_list.c	/^s_list_remove(struct s_list_node **head, const void *data)$/;"	f
+s_list_reverse	src/util/s_list.c	/^s_list_reverse(struct s_list_node **head)$/;"	f
+sequence	src/network/packet.h	/^	uint8_t sequence; $/;"	m	struct:packet
+sequence	src/network/packet.h	/^	uint8_t sequence;$/;"	m	struct:packet_buffer
+sequence_read_last	src/network/packet.h	/^	uint8_t sequence_read_last;$/;"	m	struct:packet_buffer
+sight	src/data/data_hero.h	/^	uint16_t sight;$/;"	m	struct:data_hero
+sight	src/data/heroes/data_hero_archer.h	/^	const uint16_t sight;$/;"	m	struct:spell_archer_trap
+sight	src/game/hero/hero.h	/^	uint16_t sight;$/;"	m	struct:hero
+size	src/game/hitbox.h	/^	vec2 size;$/;"	m	struct:hitbox
+size	src/game/tile_grid.h	/^	vec2 size;$/;"	m	struct:tile_grid
+size	src/game/world.h	/^	vec2 size;$/;"	m	struct:world
+slot	src/game/command.h	/^	uint8_t slot;$/;"	m	struct:command_hero_spell_cast
+speed	src/data/heroes/data_hero_archer.h	/^	const float speed;$/;"	m	struct:spell_archer_arrow
+spell	src/game/spell/spell.h	/^spell$/;"	s
+spell_archer_arrow	src/data/heroes/data_hero_archer.h	/^spell_archer_arrow$/;"	s
+spell_archer_trap	src/data/heroes/data_hero_archer.h	/^spell_archer_trap$/;"	s
+spell_cache	src/data/data_spell.c	/^static struct data_spell_cache spell_cache;$/;"	v	typeref:struct:data_spell_cache	file:
+spell_count	src/data/data_spell.h	/^	uint16_t spell_count;$/;"	m	struct:data_spell_cache
+spell_count	src/game/world.h	/^	uint8_t spell_count;$/;"	m	struct:world
+spell_data	src/game/spell/spell.h	/^	void *spell_data;$/;"	m	struct:spell
+spell_destroy	src/game/spell/spell.c	/^spell_destroy(struct spell *spell)$/;"	f
+spell_init	src/game/spell/spell.c	/^spell_init($/;"	f
+spell_init_archer_arrow	src/data/heroes/data_hero_archer.c	/^spell_init_archer_arrow(struct spell *spell, struct hero *hero)$/;"	f
+spell_init_archer_trap	src/data/heroes/data_hero_archer.c	/^spell_init_archer_trap(struct spell *spell, struct hero *hero)$/;"	f
+spell_init_data	src/game/spell/spell.c	/^spell_init_data(struct spell *spell, struct hero *caster, struct hero *target, enum spell_type type)$/;"	f	file:
+spell_type	src/game/spell/spell_info.h	/^spell_type$/;"	g
+spell_update	src/game/spell/spell.c	/^spell_update(struct spell *spell, struct world *world)$/;"	f
+spell_update_archer_arrow	src/data/heroes/data_hero_archer.c	/^spell_update_archer_arrow(struct spell *spell, struct world *world)$/;"	f	file:
+spell_update_archer_trap	src/data/heroes/data_hero_archer.c	/^spell_update_archer_trap(struct spell *spell, struct world *world)$/;"	f	file:
+spell_updater	src/game/spell/spell.h	/^typedef void (*spell_updater)(struct spell *spell, struct world *world);$/;"	t
+spells	src/data/data_hero.h	/^	const struct data_spell *spells[SPELL_SLOTS];$/;"	m	struct:data_hero	typeref:struct:data_hero::data_spell
+spells	src/data/data_spell.h	/^	struct data_spell spells[SPELL_SLOTS];$/;"	m	struct:data_spell_set	typeref:struct:data_spell_set::data_spell
+spells	src/game/world.h	/^	struct spell spells[MAX_SPELLS];$/;"	m	struct:world	typeref:struct:world::spell
+ss	src/game/hero/hero.h	/^	struct hero *ss; \/\/snapshot of previous frame$/;"	m	struct:hero	typeref:struct:hero::hero
+strip_file_ext	src/util/util_funcs.c	/^strip_file_ext(char *fname)$/;"	f
+stun_time	src/data/heroes/data_hero_archer.h	/^	const float stun_time;$/;"	m	struct:spell_archer_trap
+t	src/game/tile_grid.h	/^	struct tile *t[MAX_UNIT_TILE_SIZE];$/;"	m	struct:tile_unit_size	typeref:struct:tile_unit_size::tile
+target	src/game/command.h	/^	struct hero *target;$/;"	m	struct:command_hero_spell_cast	typeref:struct:command_hero_spell_cast::hero
+target	src/game/hero/hero.h	/^	struct hero *target;$/;"	m	struct:hero	typeref:struct:hero::hero
+target	src/game/spell/spell.h	/^	struct hero *target;$/;"	m	struct:spell	typeref:struct:spell::hero
+team	src/game/hero/hero.h	/^	uint8_t team;$/;"	m	struct:hero
+team	src/network/party.h	/^	uint8_t team;$/;"	m	struct:party_member
+tile	src/game/tile_grid.h	/^tile$/;"	s
+tile_count	src/game/tile_grid.h	/^	uint8_t tile_count;$/;"	m	struct:tile_unit_size
+tile_get	src/game/tile_grid.c	/^tile_get(const struct tile_grid *grid, vec2 pos)$/;"	f
+tile_get_f	src/game/tile_grid.c	/^tile_get_f(const struct tile_grid *grid, vec2 pos)$/;"	f
+tile_get_heroes_in_range	src/game/tile_grid.c	/^tile_get_heroes_in_range(struct tile_grid *grid, const struct hero *hero)$/;"	f
+tile_grid	src/game/tile_grid.h	/^tile_grid$/;"	s
+tile_grid_clear	src/game/tile_grid.c	/^tile_grid_clear(struct tile_grid *grid)$/;"	f
+tile_grid_destroy	src/game/tile_grid.c	/^tile_grid_destroy(struct tile_grid *grid)$/;"	f
+tile_grid_init	src/game/tile_grid.c	/^tile_grid_init(vec2 grid_size, vec2 tile_size)$/;"	f
+tile_grid_reset	src/game/tile_grid.c	/^tile_grid_reset(struct tile_grid *grid)$/;"	f
+tile_grid_update	src/game/tile_grid.c	/^tile_grid_update(struct tile_grid *grid, struct hero *heroes)$/;"	f
+tile_hero_add	src/game/tile_grid.c	/^tile_hero_add(struct tile *t, struct hero *hero)$/;"	f
+tile_hero_remove	src/game/tile_grid.c	/^tile_hero_remove(struct tile *t, struct hero *hero)$/;"	f
+tile_hitbox_tiles	src/game/tile_grid.c	/^tile_hitbox_tiles(const struct tile_grid *grid, const struct hitbox *hb)$/;"	f
+tile_hitbox_unit_size	src/game/tile_grid.c	/^tile_hitbox_unit_size(vec2 size)$/;"	f
+tile_neighbors	src/game/tile_grid.c	/^tile_neighbors(const struct tile_grid *grid, const struct tile *tile)$/;"	f
+tile_neighbors_list	src/game/tile_grid.h	/^tile_neighbors_list$/;"	s
+tile_print	src/game/tile_grid.c	/^tile_print(const struct tile *tile, const char *name)$/;"	f
+tile_reset	src/game/tile_grid.c	/^tile_reset(struct tile *tile)$/;"	f
+tile_set	src/game/tile_grid.c	/^tile_set(struct tile *old_tile, const struct tile *new_tile)$/;"	f
+tile_size	src/game/tile_grid.h	/^	vec2 tile_size;$/;"	m	struct:tile_grid
+tile_unit_size	src/game/tile_grid.h	/^tile_unit_size$/;"	s
+tiles	src/game/tile_grid.h	/^	struct tile *tiles;$/;"	m	struct:tile_grid	typeref:struct:tile_grid::tile
+timer_reliable_retry	src/network/packet.h	/^	uint16_t timer_reliable_retry;$/;"	m	struct:packet_buffer
+trim_white_space	src/util/util_funcs.c	/^trim_white_space(char *str)$/;"	f
+type	src/data/data_hero.h	/^	enum hero_type type;$/;"	m	struct:data_hero	typeref:enum:data_hero::hero_type
+type	src/data/data_spell.h	/^	enum spell_type type;$/;"	m	struct:data_spell	typeref:enum:data_spell::spell_type
+type	src/game/command.h	/^	enum command_type type;$/;"	m	struct:command	typeref:enum:command::command_type
+type	src/network/packet.h	/^	enum packet_type type;$/;"	m	struct:packet	typeref:enum:packet::packet_type
+udata	src/util/log.c	/^	void *udata;$/;"	m	struct:__anon2	file:
+unit_size	src/game/pathfinding.h	/^	vec2 unit_size;$/;"	m	struct:pf_settings
+unlock	src/util/log.c	/^unlock(void) $/;"	f	file:
+update	src/game/hero/hero.h	/^	hero_updater update;$/;"	m	struct:hero
+update	src/game/spell/spell.h	/^	spell_updater update;$/;"	m	struct:spell
+update_allies	src/game/command.h	/^	struct command_update_ally update_allies[MAX_PLAYERS];$/;"	m	struct:command_world_snapshot	typeref:struct:command_world_snapshot::command_update_ally
+update_enemies	src/game/command.h	/^	struct command_update_enemy update_enemies[MAX_PLAYERS];$/;"	m	struct:command_world_snapshot	typeref:struct:command_world_snapshot::command_update_enemy
+update_local	src/game/command.h	/^	struct command_update_local update_local;$/;"	m	struct:command_world_snapshot	typeref:struct:command_world_snapshot::command_update_local
+username	src/game/hero/hero.h	/^	char username[MAX_USERNAME_LEN];$/;"	m	struct:hero
+username	src/network/friend.h	/^	char username[MAX_USERNAME_LEN+1];$/;"	m	struct:__anon1
+username	src/network/party.h	/^	char username[MAX_USERNAME_LEN];$/;"	m	struct:party_member
+username_color	src/game/hero/hero.h	/^	union color username_color;$/;"	m	struct:hero	typeref:union:hero::color
+username_color	src/network/party.h	/^	union color username_color;$/;"	m	struct:party_member	typeref:union:party_member::color
+val	src/util/game_util.h	/^	val$/;"	s	union:color
+val	src/util/game_util.h	/^	} val;$/;"	m	union:color	typeref:struct:color::val
+vec2	src/util/vec2.h	/^} vec2;$/;"	t	typeref:struct:__anon5
+vec2_add	src/util/vec2.c	/^vec2_add(vec2 v1, vec2 v2)$/;"	f
+vec2_add_f	src/util/vec2.c	/^vec2_add_f(vec2 v, float f)$/;"	f
+vec2_dist	src/util/vec2.c	/^vec2_dist(vec2 v1, vec2 v2)$/;"	f
+vec2_dot	src/util/vec2.c	/^vec2_dot(vec2 v1, vec2 v2)$/;"	f
+vec2_eq_vec2i	src/util/vec2.c	/^vec2_eq_vec2i(vec2 v1, vec2i v2)$/;"	f
+vec2_equal	src/util/vec2.c	/^vec2_equal(vec2 v1, vec2 v2)$/;"	f
+vec2_floor	src/util/vec2.c	/^vec2_floor(vec2 v)$/;"	f
+vec2_from_dir	src/util/game_util.c	/^vec2_from_dir(enum direction dir)$/;"	f
+vec2_init	src/util/vec2.c	/^vec2_init(int32_t x, int32_t y)$/;"	f
+vec2_init_f	src/util/vec2.c	/^vec2_init_f(float x, float y)$/;"	f
+vec2_lerp	src/util/vec2.c	/^vec2_lerp(vec2 pos, vec2 dst, float f) $/;"	f
+vec2_mag	src/util/vec2.c	/^vec2_mag(vec2 v)$/;"	f
+vec2_mul	src/util/vec2.c	/^vec2_mul(vec2 v, double d)$/;"	f
+vec2_norm	src/util/vec2.c	/^vec2_norm(vec2 v)$/;"	f
+vec2_sub	src/util/vec2.c	/^vec2_sub(vec2 v1, vec2 v2)$/;"	f
+vec2_sub_f	src/util/vec2.c	/^vec2_sub_f(vec2 v, float f)$/;"	f
+vec2i	src/util/vec2.h	/^} vec2i;$/;"	t	typeref:struct:__anon4
+vec2i_init	src/util/vec2.c	/^vec2i_init(int32_t x, int32_t y)$/;"	f
+world	src/game/game.h	/^	struct world world;$/;"	m	struct:game	typeref:struct:game::world
+world	src/game/hero/hero.h	/^	struct world *world;$/;"	m	struct:hero	typeref:struct:hero::world
+world	src/game/spell/spell.h	/^	struct world *world;$/;"	m	struct:spell	typeref:struct:spell::world
+world	src/game/world.h	/^world$/;"	s
+world_destroy	src/game/world.c	/^world_destroy(struct world *world)$/;"	f
+world_hero_get	src/game/world.c	/^world_hero_get(struct world *world, uint32_t id_game)$/;"	f
+world_hero_get_at	src/game/world.c	/^world_hero_get_at(struct world *world, vec2 pos)$/;"	f
+world_hero_init	src/game/world.c	/^world_hero_init(struct world *world, struct hero *hero) $/;"	f
+world_hero_remove	src/game/world.c	/^world_hero_remove(struct world *world, struct hero *hero)$/;"	f
+world_hero_slot	src/game/world.c	/^world_hero_slot(struct world *world)$/;"	f
+world_init	src/game/world.c	/^world_init(void)$/;"	f
+world_keep_in_bounds	src/game/world.c	/^world_keep_in_bounds(vec2 size, vec2 *pos)$/;"	f
+world_snapshot_flags	src/game/command.h	/^world_snapshot_flags$/;"	g
+world_spell_get	src/game/world.c	/^world_spell_get(struct world *world, uint32_t id_game)$/;"	f
+world_spell_init	src/game/world.c	/^world_spell_init(struct world *world, struct spell *spell)$/;"	f
+world_spell_remove	src/game/world.c	/^world_spell_remove(struct world *world, struct spell *spell)$/;"	f
+world_spell_slot	src/game/world.c	/^world_spell_slot(struct world *world)$/;"	f
+world_update	src/game/world.c	/^world_update(struct world *world)$/;"	f
+write	src/network/packet.h	/^	struct packet write[PACKET_ARR_SIZE];$/;"	m	struct:packet_buffer	typeref:struct:packet_buffer::packet
+write_attempts	src/network/packet.h	/^	uint8_t write_attempts; $/;"	m	struct:packet_buffer
+write_count	src/network/packet.h	/^	uint16_t write_count;$/;"	m	struct:packet_buffer
+write_history	src/network/packet.h	/^	struct packet write_history[PACKET_ARR_SIZE];$/;"	m	struct:packet_buffer	typeref:struct:packet_buffer::packet
+write_history_count	src/network/packet.h	/^	uint16_t write_history_count;$/;"	m	struct:packet_buffer
+x	src/util/vec2.h	/^	float x; $/;"	m	struct:__anon5
+x	src/util/vec2.h	/^	int32_t x; $/;"	m	struct:__anon4
+y	src/util/vec2.h	/^	float y;  $/;"	m	struct:__anon5
+y	src/util/vec2.h	/^	int32_t y;  $/;"	m	struct:__anon4

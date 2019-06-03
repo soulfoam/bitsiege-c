@@ -1,0 +1,155 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+CLIENT__	src/network/client.h	2;"	d
+DATABASE__	src/database/db_info.h	2;"	d
+DB_DB	src/database/db_info.h	8;"	d
+DB_HOST	src/database/db_info.h	4;"	d
+DB_PASSWORD	src/database/db_info.h	7;"	d
+DB_PORT	src/database/db_info.h	5;"	d
+DB_USER	src/database/db_info.h	6;"	d
+DB__	src/database/db.h	2;"	d
+MAX_PARTIES	src/network/server_funcs.h	11;"	d
+MAX_ROOMS	src/network/server_funcs.h	10;"	d
+MAX_USERS	src/network/server_funcs.h	9;"	d
+PACKET_PROCESSOR__	src/network/packet_processor.h	2;"	d
+ROOM_STATE_CLOSED	src/room/room.h	/^	ROOM_STATE_CLOSED$/;"	e	enum:room_state
+ROOM_STATE_OPEN	src/room/room.h	/^	ROOM_STATE_OPEN,$/;"	e	enum:room_state
+ROOM__	src/room/room.h	2;"	d
+SERVER_FUNCS__	src/network/server_funcs.h	2;"	d
+SERVER_PACKET__	src/network/server_packet.h	2;"	d
+SERVER__	src/network/server.h	2;"	d
+account_is_logged_in	src/network/server_funcs.c	/^account_is_logged_in(uint32_t account_id)$/;"	f
+addr_cl	src/network/client.h	/^	struct sockaddr_in addr_cl;$/;"	m	struct:client	typeref:struct:client::sockaddr_in
+addr_sv	src/network/server.h	/^	struct sockaddr_in addr_sv;$/;"	m	struct:server	typeref:struct:server::sockaddr_in
+cl	src/network/packet_processor.c	/^static struct client *cl;$/;"	v	typeref:struct:client	file:
+client	src/network/client.h	/^struct client$/;"	s
+client_count	src/network/server.h	/^	uint32_t client_count;$/;"	m	struct:server
+client_get	src/network/client.c	/^client_get(struct sockaddr_in *addr)$/;"	f
+client_get_id	src/network/client.c	/^client_get_id(uint32_t db_id)$/;"	f
+client_in_game	src/network/client.c	/^client_in_game(struct client *cl)$/;"	f
+client_info	src/network/client.h	/^struct client_info$/;"	s
+client_init	src/network/client.c	/^client_init(struct sockaddr_in addr_cl)$/;"	f
+client_ip	src/network/client.c	/^client_ip(const struct client *cl)$/;"	f
+client_port	src/network/client.c	/^client_port(const struct client *cl)$/;"	f
+client_remove	src/network/client.c	/^client_remove(struct client *cl)$/;"	f
+client_update	src/network/client.c	/^client_update(struct client *cl)$/;"	f
+clients	src/network/server.h	/^	struct client clients[MAX_USERS];$/;"	m	struct:server	typeref:struct:server::client
+clients	src/room/room.h	/^	struct client *clients[MAX_PLAYERS];$/;"	m	struct:room	typeref:struct:room::client
+con	src/database/db.h	/^	MYSQL *con;$/;"	m	struct:database
+d_b	src/database/db.c	/^struct database *d_b;$/;"	v	typeref:struct:database
+database	src/database/db.h	/^database$/;"	s
+db	src/database/db.c	/^db(void)$/;"	f
+db_account_exists	src/database/db.c	/^db_account_exists(const char *username)$/;"	f
+db_account_friend_list_get	src/database/db.c	/^db_account_friend_list_get(uint32_t db_id, int8_t *result)$/;"	f
+db_account_login	src/database/db.c	/^db_account_login(struct client *cl, char *username, const char *password)$/;"	f
+db_account_register	src/database/db.c	/^db_account_register(char *username, const char *password, char *email, uint32_t ip)$/;"	f
+db_character_exists	src/database/db.c	/^db_character_exists(const char *name)$/;"	f
+db_destroy	src/database/db.c	/^db_destroy(void)$/;"	f
+db_get_account_id	src/database/db.c	/^db_get_account_id(char *username)$/;"	f
+db_init	src/database/db.c	/^db_init(void)$/;"	f
+disconnect	src/network/client.h	/^	bool disconnect;$/;"	m	struct:client
+elo	src/room/room.h	/^	uint32_t elo;$/;"	m	struct:room
+email	src/network/client.h	/^	char email[MAX_EMAIL_LEN+1];$/;"	m	struct:client_info
+fd	src/network/server.h	/^	int32_t fd;$/;"	m	struct:server
+game	src/room/room.h	/^	struct game *game;$/;"	m	struct:room	typeref:struct:room::game
+get_time_ms	src/network/server_funcs.c	/^get_time_ms(void)$/;"	f
+hash_string	src/network/server_funcs.c	/^hash_string(char *value)$/;"	f
+hero	src/network/client.h	/^	struct hero *hero;$/;"	m	struct:client	typeref:struct:client::hero
+id	src/room/room.h	/^	uint16_t id;$/;"	m	struct:room
+id_account	src/network/client.h	/^	uint32_t id_account;$/;"	m	struct:client_info
+id_pool_party	src/network/server_funcs.c	/^id_pool_party(void)$/;"	f
+id_pool_room	src/network/server_funcs.c	/^id_pool_room(void)$/;"	f
+id_pools_destroy	src/network/server_funcs.c	/^id_pools_destroy(void)$/;"	f
+id_pools_init	src/network/server_funcs.c	/^id_pools_init(void)$/;"	f
+info	src/network/client.h	/^	struct client_info info;$/;"	m	struct:client	typeref:struct:client::client_info
+is_valid_email	src/network/server_funcs.c	/^is_valid_email(char *email)$/;"	f
+last_time_packet	src/network/client.h	/^	time_t last_time_packet;$/;"	m	struct:client
+last_time_ping_packet	src/network/client.h	/^	long long int last_time_ping_packet;$/;"	m	struct:client
+logged_in	src/network/client.h	/^	bool logged_in;$/;"	m	struct:client_info
+loop_server	src/main.c	/^loop_server(void)$/;"	f
+main	src/main.c	/^main(int argc, char **argv)$/;"	f
+manager	src/server_manager.c	/^manager(void)$/;"	f
+member_count	src/room/room.h	/^	uint8_t member_count;$/;"	m	struct:room
+mngr	src/server_manager.c	/^static struct server_manager mngr;$/;"	v	typeref:struct:server_manager	file:
+name_color	src/network/client.h	/^	union color name_color;$/;"	m	struct:client_info	typeref:union:client_info::color
+need_ping	src/network/client.h	/^	bool need_ping;$/;"	m	struct:client
+pack_buf	src/network/client.h	/^	struct packet_buffer *pack_buf;$/;"	m	struct:client	typeref:struct:client::packet_buffer
+parties	src/server_manager.h	/^	struct party *parties[MAX_PARTIES];$/;"	m	struct:server_manager	typeref:struct:server_manager::party
+party	src/network/client.h	/^	struct party *party;$/;"	m	struct:client	typeref:struct:client::party
+party_invites	src/server_manager.h	/^	struct party_invite *party_invites[MAX_USERS];$/;"	m	struct:server_manager	typeref:struct:server_manager::party_invite
+ping	src/network/client.h	/^	uint16_t ping;$/;"	m	struct:client
+pm	src/network/client.h	/^	struct party_member *pm;$/;"	m	struct:client	typeref:struct:client::party_member
+pool_party	src/network/server_funcs.c	/^static uint16_t *pool_party;$/;"	v	file:
+pool_room	src/network/server_funcs.c	/^static uint16_t *pool_room;$/;"	v	file:
+process_disconnect	src/network/packet_processor.c	/^process_disconnect(struct packet *packet, struct client *cl)$/;"	f	file:
+process_input	src/network/packet_processor.c	/^process_input(struct packet *packet, struct client *cl)$/;"	f	file:
+process_packet	src/network/packet_processor.c	/^process_packet(struct packet *packet, struct client *cl)$/;"	f
+process_party_invite	src/network/packet_processor.c	/^process_party_invite(struct packet *packet, struct client *cl)$/;"	f	file:
+process_party_invite_accept	src/network/packet_processor.c	/^process_party_invite_accept(struct packet *packet, struct client *cl)$/;"	f	file:
+process_party_invite_decline	src/network/packet_processor.c	/^process_party_invite_decline(struct packet *packet, struct client *cl)$/;"	f	file:
+process_party_leave	src/network/packet_processor.c	/^process_party_leave(struct packet *packet, struct client *cl)$/;"	f	file:
+process_party_que	src/network/packet_processor.c	/^process_party_que(struct packet *packet, struct client *cl)$/;"	f	file:
+process_ping	src/network/packet_processor.c	/^process_ping(struct packet *packet, struct client *cl)$/;"	f
+process_room_join	src/network/packet_processor.c	/^process_room_join(struct packet *packet, struct client *cl)$/;"	f	file:
+process_spell_cast	src/network/packet_processor.c	/^process_spell_cast(struct packet *packet, struct client *cl)$/;"	f	file:
+process_user_login	src/network/packet_processor.c	/^process_user_login(struct packet *packet, struct client *cl)$/;"	f	file:
+process_user_register	src/network/packet_processor.c	/^process_user_register(struct packet *packet, struct client *cl)$/;"	f	file:
+ranked	src/room/room.h	/^	bool ranked;$/;"	m	struct:room
+request_input	src/network/server_packet.c	/^request_input(struct client *cl)$/;"	f
+request_login_result	src/network/server_packet.c	/^request_login_result($/;"	f
+request_packet	src/network/server_packet.c	/^request_packet($/;"	f	file:
+request_party_add	src/network/server_packet.c	/^request_party_add(struct client *cl, struct party *party, uint32_t id)$/;"	f
+request_party_invite	src/network/server_packet.c	/^request_party_invite(struct client *cl, struct client_info *inviter, uint16_t id_party)$/;"	f
+request_party_join	src/network/server_packet.c	/^request_party_join(struct client *cl, struct party *party)$/;"	f
+request_party_leave	src/network/server_packet.c	/^request_party_leave(struct client *cl, struct party *party, uint32_t id)$/;"	f
+request_ping	src/network/server_packet.c	/^request_ping(struct client *cl)$/;"	f
+request_register_result	src/network/server_packet.c	/^request_register_result(struct client *cl, enum packet_result result)$/;"	f
+request_room_add	src/network/server_packet.c	/^request_room_add(struct client *cl, struct room *room, uint32_t id)$/;"	f
+request_room_game_start	src/network/server_packet.c	/^request_room_game_start(struct client *cl, struct room *room)$/;"	f
+request_room_hero_change	src/network/server_packet.c	/^request_room_hero_change(struct client *cl, struct room *room)$/;"	f
+request_room_join	src/network/server_packet.c	/^request_room_join(struct client *cl, struct room *room)$/;"	f
+request_room_leave	src/network/server_packet.c	/^request_room_leave(struct client *cl, struct room *room, uint32_t id)$/;"	f
+request_world_snapshot	src/network/server_packet.c	/^request_world_snapshot(struct client *cl, char *buffer, uint16_t len)$/;"	f
+room	src/network/client.h	/^	struct room *room;$/;"	m	struct:client	typeref:struct:client::room
+room	src/room/room.h	/^room$/;"	s
+room_can_join	src/room/room.c	/^room_can_join(struct room *room, uint8_t party_count)$/;"	f
+room_destroy	src/room/room.c	/^room_destroy(struct room *room)$/;"	f
+room_game_init	src/room/room.c	/^room_game_init(struct room *room)$/;"	f
+room_has_member	src/room/room.c	/^room_has_member(struct room *room, uint32_t id)$/;"	f
+room_init	src/room/room.c	/^room_init(uint16_t id)$/;"	f
+room_member_add	src/room/room.c	/^room_member_add(struct room *room, struct client *cl)$/;"	f
+room_member_remove	src/room/room.c	/^room_member_remove(struct room *room, uint32_t id)$/;"	f
+room_snapshot_allies	src/room/room.c	/^room_snapshot_allies($/;"	f	file:
+room_snapshot_enemies	src/room/room.c	/^room_snapshot_enemies($/;"	f	file:
+room_snapshot_local	src/room/room.c	/^room_snapshot_local($/;"	f	file:
+room_snapshot_world	src/room/room.c	/^room_snapshot_world(struct room *room, char *buffer, uint16_t *len)$/;"	f	file:
+room_state	src/room/room.h	/^room_state$/;"	g
+room_update	src/room/room.c	/^room_update(struct room *room)$/;"	f
+room_world_snapshot	src/room/room.c	/^room_world_snapshot(struct room *room, bool full_update)$/;"	f	file:
+rooms	src/server_manager.h	/^	struct room *rooms[MAX_ROOMS];$/;"	m	struct:server_manager	typeref:struct:server_manager::room
+running	src/main.c	/^static bool running;$/;"	v	file:
+server	src/network/server.c	/^server(void)$/;"	f
+server	src/network/server.h	/^struct server$/;"	s
+server_init	src/network/server.c	/^server_init(void)$/;"	f
+server_manager	src/server_manager.h	/^server_manager$/;"	s
+server_manager__	src/server_manager.h	2;"	d
+server_manager_destroy	src/server_manager.c	/^server_manager_destroy(void)$/;"	f
+server_manager_get_open_party	src/server_manager.c	/^server_manager_get_open_party(uint16_t id_party)$/;"	f
+server_manager_get_party	src/server_manager.c	/^server_manager_get_party(uint16_t id_party)$/;"	f
+server_manager_init	src/server_manager.c	/^server_manager_init(void)$/;"	f
+server_manager_que	src/server_manager.c	/^server_manager_que(struct client *cl)$/;"	f
+server_manager_room_count	src/server_manager.c	/^server_manager_room_count(void)$/;"	f
+server_manager_room_init	src/server_manager.c	/^server_manager_room_init(struct client *cl)$/;"	f	file:
+server_manager_update	src/server_manager.c	/^server_manager_update(void)$/;"	f
+server_process	src/network/server.c	/^server_process(void)$/;"	f
+server_read	src/network/server.c	/^server_read(void)$/;"	f
+server_write_packets	src/network/server.c	/^server_write_packets(void)$/;"	f
+sockaddr_in_match	src/network/client.c	/^sockaddr_in_match($/;"	f
+start_game_timer	src/room/room.h	/^	uint16_t start_game_timer;	$/;"	m	struct:room
+status	src/room/room.h	/^	enum room_state status;$/;"	m	struct:room	typeref:enum:room::room_state
+sv	src/network/server.c	/^static struct server sv;$/;"	v	typeref:struct:server	file:
+username	src/network/client.h	/^	char username[MAX_USERNAME_LEN+1];$/;"	m	struct:client_info
