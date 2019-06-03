@@ -1,4 +1,4 @@
-This is a rewrite of Bit Siege Java that is around 50% complete. I have since stopped doing 2D game development so this will be halted until further notice. There is many things to poke around and look at though.
+This is a rewrite of Bit Siege Java that is around 50% complete. I have since stopped doing 2D games and moved onto 3D, so this will be halted until further notice. There is many things to poke around and look at though.
 
 The client can be compiled for Windows, Linux, and HTML5. The server can be compiled for Linux.
 
